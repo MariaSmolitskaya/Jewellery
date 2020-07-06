@@ -2,9 +2,77 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Jewellery</title>
 </head>
 <body>
+<header class="main-header">
+  <form class="search" method="post">
+    <input class="search__input" type="search" placeholder="Type here to search">
+    <input class="search__icon" type="submit" value="">
+  </form>
+  <a class="logo" href="index.html">
+    <img class="logo__img" src="img/logo.svg" alt="Jewellery logo" width="66" height="66">
+  </a>
+  <a class="main-header__login" href="#">Login</a>
+  <a class="main-header__cart" href="#">Cart</a>
+  <nav class="main-header__menu menu">
+    <ul class="menu__list">
+      <li class="menu__item">
+        <a class="menu__link" href="#">What’s new</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#">Chokers</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#">Necklaces</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#">Rings</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#">Earrings</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+<main class="main">
+  <section class="product">
+    <section class="product__images">
+      <img class="product__img" src="img/gold-necklace-for-women@1x.jpg" width="100" height="125" alt="gold necklace for women">
+      <img class="product__img" src="img/pretty-gold-necklace@1x.jpg" width="100" height="125" alt="pretty gold necklace">
+      <img class="product__img" src="img/womens-necklace-set@1x.jpg" width="100" height="125" alt="womens necklace set">
+      <img src="img/necklace-detail@1x.jpg" width="470" height="435" alt="necklace detail">
+    </section>
+    <section class="product__detail">
+      <h2 class="product__title">Gold Necklace</h2>
+      <div class="product__price">$ 115</div>
+      <div class="product__desc">Description</div>
+      <span class="product__info">Additional info</span>
+      <table class="product__table">
+        <tr class="product__row">
+          <td class="product__cell">Metal type</td>
+          <td class="product__cell">Gold 585</td>
+        </tr>
+        <tr class="product__row">
+          <td class="product__cell">Stone</td>
+          <td class="product__cell">Turquoise</td>
+        </tr>
+        <tr class="product__row">
+          <td class="product__cell">Size</td>
+          <td class="product__cell">18” / 20”</td>
+        </tr>
+      </table>
+    </section>
+    <button class="product__add button" type="button">Add to cart</button>
+    <div class="product__guarantee">
+      <span class="product__text">14 Day Returns</span>
+      <span class="product__text">2-Year Warranty</span>
+      <span class="product__text">Free Shipping</span>
+    </div>
+  </section>
+
+</main >
 
 </body>
 </html>
