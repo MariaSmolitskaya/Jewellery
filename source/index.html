@@ -9,8 +9,10 @@
 <body>
 <header class="main-header">
   <form class="search" method="post">
-    <input class="search__input" type="search" placeholder="Type here to search">
-    <input class="search__icon" type="submit" value="">
+    <label class="visually-hidden" for="search-input"></label>
+    <input class="search__input" type="search" placeholder="Type here to search" id="search-input">
+    <label class="visually-hidden" for="search-submit"></label>
+    <input class="search__icon" type="submit" id="search-submit">
   </form>
   <a class="logo">
     <img class="logo__img" src="img/logo.svg" alt="Jewellery logo" width="66" height="66">
