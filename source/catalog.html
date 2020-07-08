@@ -9,9 +9,9 @@
 <body>
 <header class="main-header">
   <form class="search" method="post">
-    <label class="visually-hidden" for="search-input"></label>
+    <label class="visually-hidden" for="search-input">Search</label>
     <input class="search__input" type="search" placeholder="Type here to search" id="search-input">
-    <label class="visually-hidden" for="search-submit"></label>
+    <label class="visually-hidden" for="search-submit">Submit</label>
     <input class="search__icon" type="submit" id="search-submit">
   </form>
   <a class="logo" href="index.html">
@@ -83,7 +83,8 @@
     <div class="filters__price">
       <h2 class="filters__title">Price</h2>
       <div class="filters__slider">
-        <input class="filters__range" type="range" min="10" max="500">
+        <label class="visually-hidden" for="price">Price</label>
+        <input class="filters__range" type="range" min="10" max="500" id="price">
       </div>
     </div>
     <button class="filters__submit button" type="submit">Apply</button>
@@ -162,11 +163,11 @@
   <section class="footer__sign sign">
     <h2 class="sign__title">The good stuff in your inbox</h2>
     <span class="sign__text">News and updates from CH. No spam, we promise.</span>
-    <form class="sign__form sign-up" method="post">
-      <label class="visually-hidden" for="search-input"></label>
-      <input class="sign-up__input" type="email" placeholder="Your E-mail" id="sign-input">
-      <label class="visually-hidden" for="search-submit"></label>
-      <input class="sign-up__submit" type="submit" value="Sign Up" id="sign-submit">
+    <form class="sign__form " method="post">
+      <label class="visually-hidden" for="sign-input">Email</label>
+      <input class="sign__input" type="email" placeholder="Your E-mail" id="sign-input">
+      <label class="visually-hidden" for="sign-submit">Sign up</label>
+      <input class="sign__submit" type="submit" value="Sign Up" id="sign-submit">
     </form>
   </section>
 
@@ -225,8 +226,10 @@
   </div>
   <form class="modal-login__form" method="post">
     <div class="modal-login__title">Log In</div>
-    <input class="modal-login__input" type="email" value="Your E-mail" required>
-    <input class="modal-login__input" type="password" value="Password" required>
+    <label class="visually-hidden" for="login">Your E-mail</label>
+    <input class="modal-login__input" type="email" value="Your E-mail" id="login" required>
+    <label class="visually-hidden" for="password">Password</label>
+    <input class="modal-login__input" type="password" value="Password" id="password" required>
     <a class="modal-login__forgot-link" href="#">Forgot your password?</a>
     <button class="modal-login__button button" type="submit">Log In</button>
   </form>
