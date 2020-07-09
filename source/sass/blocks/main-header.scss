@@ -1,3 +1,26 @@
-h5 {
-  color: red;
+.main-header {
+  width: 100%;
+  height: 125px;
+  display: flex;
+  border-bottom: 1px solid #F6F5F4;;
+}
+
+.main-header__logo{
+  margin-top: 41px;
+  position: absolute;
+  left: 50%;
+  margin-left: -33px;
+}
+
+.main-header__login,
+.main-header__cart {
+  color: $black;
+  text-decoration: none;
+  position: absolute;
+  margin-top: 58px;
+  right: 179px;
+}
+
+.main-header__cart {
+ right: 98px;
 }
