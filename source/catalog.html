@@ -9,38 +9,48 @@
 </head>
 <body>
 <header class="main-header">
-  <form class="search" method="post">
-    <label class="visually-hidden" for="search-submit">Submit</label>
-    <button class="search__icon" type="submit" id="search-submit"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M11.0482 10.0737L14 13.0248L13.0248 14L10.0737 11.0482C8.9757 11.9285 7.60993 12.4072 6.20262 12.4052C2.77877 12.4052 0 9.62646 0 6.20262C0 2.77877 2.77877 0 6.20262 0C9.62646 0 12.4052 2.77877 12.4052 6.20262C12.4072 7.60993 11.9285 8.9757 11.0482 10.0737ZM9.66575 9.56237C10.5404 8.66291 11.0289 7.45722 11.0269 6.20262C11.0269 3.53687 8.86768 1.37836 6.20262 1.37836C3.53687 1.37836 1.37836 3.53687 1.37836 6.20262C1.37836 8.86768 3.53687 11.0269 6.20262 11.0269C7.45722 11.0289 8.66291 10.5404 9.56237 9.66575L9.66575 9.56237Z" fill="black"/>
-    </svg></button>
-    <label class="visually-hidden" for="search-input">Search</label>
-    <input class="search__input" type="search" placeholder="Type here to search" id="search-input">
-  </form>
-  <a class="main-header__logo">
-    <img class="main-header__logo-img" src="img/logo.svg" alt="Jewellery logo" width="66" height="66">
-  </a>
-  <a class="main-header__login" href="#">Login</a>
-  <a class="main-header__cart" href="#">Cart</a>
-  <nav class="main-header__menu menu">
-    <ul class="menu__list">
-      <li class="menu__item">
-        <a class="menu__link" href="#">What’s new</a>
-      </li>
-      <li class="menu__item">
-        <a class="menu__link" href="#">Chokers</a>
-      </li>
-      <li class="menu__item">
-        <a class="menu__link" href="#">Necklaces</a>
-      </li>
-      <li class="menu__item">
-        <a class="menu__link" href="#">Rings</a>
-      </li>
-      <li class="menu__item">
-        <a class="menu__link" href="#">Earrings</a>
-      </li>
-    </ul>
-  </nav>
+  <div class="main-header__top">
+    <svg class="main-header__icon-burger" width="25" height="18" viewBox="0 0 25 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 1H25M0 9H25M0 17H25" stroke="#1D1613" stroke-width="2"/>
+    </svg>
+    <form class="search" method="post">
+      <label class="visually-hidden" for="search-submit">Submit</label>
+      <button class="search__icon" type="submit" id="search-submit"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11.0482 10.0737L14 13.0248L13.0248 14L10.0737 11.0482C8.9757 11.9285 7.60993 12.4072 6.20262 12.4052C2.77877 12.4052 0 9.62646 0 6.20262C0 2.77877 2.77877 0 6.20262 0C9.62646 0 12.4052 2.77877 12.4052 6.20262C12.4072 7.60993 11.9285 8.9757 11.0482 10.0737ZM9.66575 9.56237C10.5404 8.66291 11.0289 7.45722 11.0269 6.20262C11.0269 3.53687 8.86768 1.37836 6.20262 1.37836C3.53687 1.37836 1.37836 3.53687 1.37836 6.20262C1.37836 8.86768 3.53687 11.0269 6.20262 11.0269C7.45722 11.0289 8.66291 10.5404 9.56237 9.66575L9.66575 9.56237Z" fill="black"/>
+      </svg></button>
+      <label class="visually-hidden" for="search-input">Search</label>
+      <input class="search__input" type="search" placeholder="Type here to search" id="search-input">
+    </form>
+    <a class="main-header__logo">
+      <img class="main-header__logo-img" src="img/logo.svg" alt="Jewellery logo" width="66" height="66">
+    </a>
+    <svg class="main-header__icon-cart" width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M14 5C14 6.06087 13.5786 7.07828 12.8284 7.82843C12.0783 8.57857 11.0609 9 10 9C8.93913 9 7.92172 8.57857 7.17157 7.82843C6.42143 7.07828 6 6.06087 6 5M1 1H19V17H1V1Z" stroke="#1D1613" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <a class="main-header__login" href="#">Login</a>
+    <a class="main-header__cart" href="#">Cart 0</a>
+  </div>
+  <div class="main-header__bottom">
+    <nav class="main-header__menu menu">
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a class="menu__link" href="#">What’s new</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">Chokers</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">Necklaces</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">Rings</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">Earrings</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </header>
 
 <main class="main">
