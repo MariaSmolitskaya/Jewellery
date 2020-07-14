@@ -42,6 +42,10 @@
   border-bottom: 1px solid #f6f5f4;
 }
 
+.main-header__bottom--index {
+  display: none;
+}
+
 @media (max-width: $tablet-width) {
   .main-header {
     background-color: $decor;
@@ -56,7 +60,7 @@
     top: 685px;
     left: 45px;
     font-size: 18px;
-    color: $base-color;
+    color: rgba($base-color, 0.75);
   }
 
   .main-header__cart {
@@ -102,8 +106,8 @@
     fill: $base-color;
   }
 
-  .main-header__bottom {
-    display: none;
+  .main-header__bottom--index {
+    display: block;
   }
 }
 
@@ -114,6 +118,8 @@
 
   .main-header__login {
     left: 15px;
+    top: 621px;
+    margin-top: 0;
   }
 
   .main-header__button-burger,
