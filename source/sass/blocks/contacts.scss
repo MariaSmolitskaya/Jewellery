@@ -1,3 +1,20 @@
-h5 {
-  color: red;
+.contacts__list {
+  @include list-reset;
+}
+
+.contacts__item {
+  margin-bottom: 20px;
+}
+
+.contacts__icon {
+  margin-right: 18px;
+}
+
+.contacts__icon--facebook {
+  width: 15px;
+}
+
+.contacts__link {
+  text-decoration: none;
+  color: $base-color;
 }

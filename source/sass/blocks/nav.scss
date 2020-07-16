@@ -1,3 +1,16 @@
-h5 {
-  color: red;
+.nav {
+  display: flex;
+}
+
+.nav__list {
+  @include list-reset;
+}
+
+.nav__item {
+  margin-bottom: 20px;
+}
+
+.nav__link {
+  color: $base-color;
+  text-decoration: none;
 }
