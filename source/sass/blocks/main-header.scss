@@ -16,8 +16,8 @@
 }
 
 .main-header .search {
-  margin-top: 58px;
-  margin-left: 98px;
+  margin-top: 54px;
+  margin-left: 93px;
 }
 
 .main-header__login,
@@ -25,7 +25,7 @@
   color: $black;
   text-decoration: none;
   position: absolute;
-  margin-top: 58px;
+  margin-top: 53px;
   right: 179px;
 }
 
@@ -57,7 +57,7 @@
 
   .main-header__login {
     position: absolute;
-    top: 685px;
+    top: 625px;
     left: 45px;
     font-size: 18px;
     color: rgba($base-color, 0.75);
@@ -80,12 +80,12 @@
   .main-header__icon-cart {
     display: block;
     position: absolute;
-    top: 55px;
+    top: 53px;
   }
 
   .main-header__button-burger {
     @include btn-reset;
-    left: 45px;
+    left: 40px;
     height: 25px;
   }
 
@@ -124,7 +124,7 @@
 
   .main-header__button-burger,
   .main-header__icon-cart {
-    top: 38px;
+    top: 35px;
   }
 
   .main-header__logo {
@@ -140,7 +140,7 @@
   }
 
   .main-header__button-burger {
-    left: 15px;
+    left: 7px;
   }
 
   .main-header__icon-cart {

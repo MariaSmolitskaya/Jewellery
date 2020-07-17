@@ -1,17 +1,94 @@
 .footer {
   background-color: $black2;
-  padding: 100px 98px;
+  padding: 97px 98px 77px;
+  display: flex;
+}
+
+.footer .sign__input {
+  margin-top: 45px;
+}
+
+.footer__wrapper {
   display: flex;
 }
 
 .footer .nav__list {
-  margin-left: 91px;
+  margin-left: 95px;
 }
 
 .footer .nav__list--about {
-  margin-left: 82px;
+  margin-left: 90px;
 }
 
 .footer__contacts {
+  width: 115px;
   margin-left: 87px;
+}
+
+@media (max-width: $tablet-width) {
+  .footer {
+    flex-direction: column;
+    padding-top: 55px;
+    padding-left: 45px;
+  }
+
+  .footer__wrapper {
+    display: flex;
+  }
+
+  .footer .nav__list {
+    width: max-content;
+    margin-left: 0;
+    margin-right: 87px;
+  }
+
+  .footer__contacts {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .footer {
+    padding: 50px 10px 30px 13px;
+  }
+
+  .footer__wrapper {
+    flex-direction: column;
+  }
+
+  .footer .sign__input {
+    margin-top: 40px;
+  }
+
+  .footer .nav__list {
+    margin-bottom: 25px;
+  }
+
+  .footer .contacts__list {
+    display: flex;
+  }
+
+  .footer .contacts__title {
+    display: none;
+  }
+
+  .footer .contacts__icon {
+    margin-right: 30px;
+  }
+
+  .footer .contacts__icon--facebook {
+    width: 12px;
+    height: 21px;
+  }
+
+  .footer .contacts__icon--instagram,
+  .footer .contacts__icon--pinterest {
+    width: 20px;
+    height: 21px;
+  }
+
+  .footer .contacts__icon--twitter {
+    width: 20px;
+    height: 18px;
+  }
 }

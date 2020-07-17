@@ -14,3 +14,9 @@
   color: $base-color;
   text-decoration: none;
 }
+
+@media (max-width: $mobile-width) {
+  .nav {
+    flex-direction: column;
+  }
+}
