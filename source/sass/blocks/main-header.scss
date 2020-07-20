@@ -1,5 +1,6 @@
 .main-header {
   width: 100%;
+  position: relative;
 }
 
 .main-header__top {
@@ -13,6 +14,10 @@
   top: 41px;
   left: 50%;
   margin-left: -33px;
+
+  &:hover .main-header__logo-icon {
+    opacity: 0.7;
+  }
 }
 
 .main-header .search {
@@ -27,6 +32,11 @@
   position: absolute;
   margin-top: 53px;
   right: 179px;
+}
+
+.main-header__login:hover,
+.main-header__cart:hover {
+  color: $decor;
 }
 
 .main-header__cart {
@@ -46,7 +56,7 @@
   display: none;
 }
 
-@media (max-width: $tablet-width) {
+@media (max-width: $desktop-width) {
   .main-header {
     background-color: $decor;
   }
@@ -61,6 +71,11 @@
     left: 45px;
     font-size: 18px;
     color: rgba($base-color, 0.75);
+
+    &:hover {
+      color: $beige;
+      opacity: 0.5;
+    }
   }
 
   .main-header__cart {
@@ -81,12 +96,17 @@
     display: block;
     position: absolute;
     top: 53px;
+    cursor: pointer;
   }
 
   .main-header__button-burger {
     @include btn-reset;
     left: 40px;
     height: 25px;
+
+    &:hover .main-header__icon-burger {
+      opacity: 0.7;
+    }
   }
 
   .main-header__icon-burger{
@@ -95,6 +115,10 @@
 
   .main-header__icon-cart {
     right: 45px;
+
+    &:hover {
+      opacity: 0.7;
+    }
   }
 
   .main-header__icon-burger,
@@ -111,7 +135,7 @@
   }
 }
 
-@media (max-width: $mobile-width) {
+@media (max-width: $tablet-width) {
   .main-header__top {
     height: 92px;
   }

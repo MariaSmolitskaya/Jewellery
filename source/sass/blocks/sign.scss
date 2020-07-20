@@ -28,6 +28,10 @@
   &::placeholder {
     font-family: "Poppins", arial, sans-serif;
   }
+
+  &:hover::placeholder {
+    color: $decor;
+  }
 }
 
 .sign__submit {
@@ -38,20 +42,30 @@
   position: absolute;
   bottom: 10px;
   right: 0px;
+
+  cursor: pointer;
+
+  &:hover {
+    color: $decor;
+  }
+
+  &:hover .sign__icon {
+    stroke: $decor;
+  }
 }
 
 .sign__icon {
   margin-left: 12px;
 }
 
-@media (max-width: $tablet-width) {
+@media (max-width: $desktop-width) {
   .sign {
     width: 90%;
     margin-bottom: 50px;
   }
 }
 
-@media (max-width: $mobile-width) {
+@media (max-width: $tablet-width) {
   .sign {
     width: 100%;
     margin-bottom: 45px;

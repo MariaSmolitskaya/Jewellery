@@ -1,7 +1,9 @@
 .footer {
   background-color: $black2;
   padding: 97px 98px 77px;
+
   display: flex;
+  flex: 0 0 auto;
 }
 
 .footer .sign__input {
@@ -25,7 +27,7 @@
   margin-left: 87px;
 }
 
-@media (max-width: $tablet-width) {
+@media (max-width: $desktop-width) {
   .footer {
     flex-direction: column;
     padding-top: 55px;
@@ -47,7 +49,7 @@
   }
 }
 
-@media (max-width: $mobile-width) {
+@media (max-width: $tablet-width) {
   .footer {
     padding: 50px 10px 30px 13px;
   }

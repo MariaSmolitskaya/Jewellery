@@ -8,6 +8,10 @@
 
 .contacts__icon {
   margin-right: 18px;
+
+  &:hover {
+    fill: $decor;
+  }
 }
 
 .contacts__icon--facebook {
@@ -18,4 +22,12 @@
   text-decoration: none;
   color: $base-color;
   white-space: nowrap;
+
+  &:hover {
+    color: rgba($decor, 0.65);
+  }
+
+  &:hover .contacts__icon {
+    fill: $decor;
+  }
 }

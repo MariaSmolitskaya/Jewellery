@@ -13,9 +13,13 @@
 .nav__link {
   color: $base-color;
   text-decoration: none;
+
+  &:hover {
+    color: rgba($decor, 0.65);
+  }
 }
 
-@media (max-width: $mobile-width) {
+@media (max-width: $tablet-width) {
   .nav {
     flex-direction: column;
   }
