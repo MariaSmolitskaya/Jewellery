@@ -29,7 +29,7 @@
     margin-right: 45px;
   }
 
-  .search__button{
+  .search__button {
     position: absolute;
     top: 12px;
     left: 5px;
@@ -40,8 +40,8 @@
     height: 16px;
 
     &:hover {
-      fill: rgba($beige, 0.5) ;
-    };
+      fill: rgba($beige, 0.5);
+    }
   }
 
   .search__input {
