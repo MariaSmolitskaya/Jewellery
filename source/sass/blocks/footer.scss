@@ -3,7 +3,7 @@
   padding: 97px 98px 77px;
 
   display: flex;
-  flex: 0 0 auto;
+  flex-shrink: 0;
 }
 
 .footer .sign__input {
