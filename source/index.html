@@ -69,93 +69,123 @@
 <div class="wrapper">
   <main class="main">
     <div class="tagline">
-      <h1 class="tagline__title">PERFECTION</h1>
-      <span class="tagline__text">made to be yours</span>
+      <div class="tagline__wrapper">
+        <h1 class="tagline__title">PERFECTION</h1>
+        <span class="tagline__text">made to be yours</span>
+      </div>
     </div>
 
-    <section class="main__slider slider">
-      <h2 class="slider__title">New In</h2>
-      <a class="slider_link" href="catalog.html">Shop Now</a>
-      <div class="slider__item goods">
-        <a href="product.html">
-          <img class="goods__img" src="img/purple-gemstone-necklace@1x.jpg" alt="Necklace with amethyst" width="270" height="284">
-        </a>
-        <span class="goods__title">Necklace with amethyst</span>
-        <span class="goods__price">$ 145</span>
-      </div>
-      <div class="slider__item goods">
-        <img class="goods__img" src="img/layered-choker-necklace@1x.jpg" alt="Layered сhoker" width="270" height="284">
-        <span class="goods__title">Layered сhoker</span>
-        <span class="goods__price">$ 115</span>
-      </div>
-      <div class="slider__item goods">
-        <img class="goods__img" src="img/dainty-gold-necklace@1x.jpg" alt="Gold chain" width="270" height="284">
-        <span class="goods__title">Gold chain</span>
-        <span class="goods__price">$ 215</span>
-      </div>
-      <div class="slider__item goods">
-        <img class="goods__img" src="img/galaxy-earrings@1x.jpg" alt="Galaxy earrings" width="270" height="284">
-        <span class="goods__title">Galaxy earrings</span>
-        <span class="goods__price">$ 95</span>
-      </div>
-    </section>
+    <div class="main__wrapper">
+      <section class="main__slider slider">
+        <h2 class="slider__title">New In</h2>
+        <a class="slider__link" href="catalog.html">Shop Now</a>
+        <button class="slider__btn slider__btn--left" type="button" aria-label="show previous">
+          <svg width="30" height="11" viewBox="0 0 30 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M30 5.5L1 5.5M1 5.5L6.48649 10M1 5.5L6.48649 1" stroke="#A87B62"/>
+          </svg>
+        </button>
+        <button class="slider__btn slider__btn--right" type="button" aria-label="show next">
+          <svg width="30" height="11" viewBox="0 0 30 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 5.5H29M29 5.5L23.5135 1M29 5.5L23.5135 10" stroke="#A87B62"/>
+          </svg>
+        </button>
+        <div class="slider__wrapper">
+          <div class="slider__item goods">
+            <a href="product.html">
+              <img class="goods__img" src="img/purple-gemstone-necklace@1x.jpg" alt="Necklace with amethyst" width="270" height="284">
+            </a>
+            <div class="goods__title">Necklace with amethyst</div>
+            <div class="goods__price">$ 145</div>
+          </div>
+          <div class="slider__item goods">
+            <img class="goods__img" src="img/layered-choker-necklace@1x.jpg" alt="Layered сhoker" width="270" height="284">
+            <div class="goods__title">Layered сhoker</div>
+            <div class="goods__price">$ 115</div>
+          </div>
+          <div class="slider__item goods">
+            <img class="goods__img" src="img/dainty-gold-necklace@1x.jpg" alt="Gold chain" width="270" height="284">
+            <div class="goods__title">Gold chain</div>
+            <div class="goods__price">$ 215</div>
+          </div>
+          <div class="slider__item goods">
+            <img class="goods__img" src="img/galaxy-earrings@1x.jpg" alt="Galaxy earrings" width="270" height="284">
+            <div class="goods__title">Galaxy earrings</div>
+            <div class="goods__price">$ 95</div>
+          </div>
+        </div>
+        <div class="slider__counter">
+          <span class="slider__count slider__count--first">1</span>
+          <span class="slider__count">2</span>
+          <span class="slider__count">3</span>
+        </div>
+      </section>
 
-    <section class="blog">
-      <h2 class="blog__title">Blog</h2>
-      <a class="blog__link" href="#">Read All</a>
-      <article class="blog__item article">
-        <img class="article__img" src="img/img-article-01.jpg" alt="" width="285" height="300">
-        <span class="article__date">September 30, 2019</span>
-        <h3 class="article__title">How to care for your jewellery</h3>
-        <a class="article__link" href="#">Read Article</a>
-      </article>
-      <article class="blog__item article">
-        <img class="article__img" src="img/img-article-02.jpg" alt="" width="285" height="300">
-        <span class="article__date">September 23, 2019</span>
-        <h3 class="article__title">Power of crystals</h3>
-        <a class="article__link" href="#">Read Article</a>
-      </article>
-      <article class="blog__item article">
-        <img class="article__img" src="img/img-article-03.jpg" alt="" width="285" height="300">
-        <span class="article__date">September 16, 2019</span>
-        <h3 class="article__title">AW 19 trends</h3>
-        <a class="article__link" href="#">Read Article</a>
-      </article>
-    </section>
+      <section class="blog">
+        <h2 class="blog__title">Blog</h2>
+        <a class="blog__link" href="#">Read All</a>
+        <div class="blog__wrapper">
+          <article class="blog__item article">
+            <img class="article__img" src="img/img-article-01.jpg" alt="" width="285" height="300">
+            <div class="article__desc">
+              <div class="article__date">September 30, 2019</div>
+              <h3 class="article__title">How to care for your jewellery</h3>
+              <a class="article__link" href="#">Read Article</a>
+            </div>
+          </article>
+          <article class="blog__item article">
+            <img class="article__img" src="img/img-article-02.jpg" alt="" width="285" height="300">
+            <div class="article__desc">
+              <div class="article__date">September 23, 2019</div>
+              <h3 class="article__title">Power of crystals</h3>
+              <a class="article__link" href="#">Read Article</a>
+            </div>
+          </article>
+          <article class="blog__item article">
+            <img class="article__img" src="img/img-article-03.jpg" alt="" width="285" height="300">
+            <div class="article__desc">
+              <div class="article__date">September 16, 2019</div>
+              <h3 class="article__title">AW 19 trends</h3>
+              <a class="article__link" href="#">Read Article</a>
+            </div>
+          </article>
+        </div>
+      </section>
 
-    <section class="questions">
-      <h2 class="questions__title">Frequently asked questions</h2>
-      <div class="questions__item ">
-        <h3 class="questions__name">What materials are the jewellery made of?</h3>
-        <div class="questions__text">Our jewellerry is made of solid gold, silver or leather. Also, some jewellery contains precious and semiprecious stones and crystals.</div>
-      </div>
-      <div class="questions__item">
-        <h3 class="questions__name">Which countries do you deliver to?</h3>
-        <div class="questions__text">Our jewellerry is made of solid gold, silver or leather. Also, some jewellery contains precious and semiprecious stones and crystals.</div>
-      </div>
-      <div class="questions__item">
-        <h3 class="questions__name">What are the payment methods?</h3>
-        <div class="questions__text">Our jewellerry is made of solid gold, silver or leather. Also, some jewellery contains precious and semiprecious stones and crystals.</div>
-      </div>
-      <div class="questions__item">
-        <h3 class="questions__name">Can I return the jewellery if it didn’t fit me?</h3>
-        <div class="questions__text">Our jewellerry is made of solid gold, silver or leather. Also, some jewellery contains precious and semiprecious stones and crystals.</div>
-      </div>
-    </section>
+      <section class="questions">
+        <h2 class="questions__title">Frequently asked questions</h2>
+        <div class="questions__item ">
+          <h3 class="questions__name">What materials are the jewellery made of?</h3>
+          <div class="questions__text">Our jewellerry is made of solid gold, silver or leather. Also, some jewellery contains precious and semiprecious stones and crystals.</div>
+        </div>
+        <div class="questions__item">
+          <h3 class="questions__name">Which countries do you deliver to?</h3>
+          <div class="questions__text">Our jewellerry is made of solid gold, silver or leather. Also, some jewellery contains precious and semiprecious stones and crystals.</div>
+        </div>
+        <div class="questions__item">
+          <h3 class="questions__name">What are the payment methods?</h3>
+          <div class="questions__text">Our jewellerry is made of solid gold, silver or leather. Also, some jewellery contains precious and semiprecious stones and crystals.</div>
+        </div>
+        <div class="questions__item">
+          <h3 class="questions__name">Can I return the jewellery if it didn’t fit me?</h3>
+          <div class="questions__text">Our jewellerry is made of solid gold, silver or leather. Also, some jewellery contains precious and semiprecious stones and crystals.</div>
+        </div>
+      </section>
 
-    <section class="insta-tag">
-      <h2 class="insta-tag__title">@Chjewellery</h2>
-      <a class="insta-tag__link" href="#">Follow Us</a>
-      <div class="insta-tag__photos">
-        <img class="insta-tag__img" src="img/photo-01@1x.jpg" alt="" width="230" height="230">
-        <img class="insta-tag__img" src="img/photo-02@1x.jpg" alt="" width="230" height="154">
-        <img class="insta-tag__img" src="img/photo-03@1x.jpg" alt="" width="400" height="414">
-        <img class="insta-tag__img" src="img/photo-04@1x.jpg" alt="" width="232" height="193">
-        <img class="insta-tag__img" src="img/photo-05@1x.jpg" alt="" width="218" height="191">
-        <img class="insta-tag__img" src="img/photo-06@1x.jpg" alt="" width="218" height="218">
-        <img class="insta-tag__img" src="img/photo-07@1x.jpg" alt="" width="232" height="166">
-      </div>
-    </section>
+      <section class="insta-tag">
+        <h2 class="insta-tag__title">@Chjewellery</h2>
+        <a class="insta-tag__link" href="#">Follow Us</a>
+        <div class="insta-tag__photos">
+          <img class="insta-tag__img" src="img/photo-01@1x.jpg" alt="" width="230" height="230">
+          <img class="insta-tag__img" src="img/photo-02@1x.jpg" alt="" width="230" height="154">
+          <img class="insta-tag__img" src="img/photo-03@1x.jpg" alt="" width="400" height="414">
+          <img class="insta-tag__img" src="img/photo-04@1x.jpg" alt="" width="232" height="193">
+          <img class="insta-tag__img" src="img/photo-05@1x.jpg" alt="" width="218" height="191">
+          <img class="insta-tag__img" src="img/photo-06@1x.jpg" alt="" width="218" height="218">
+          <img class="insta-tag__img" src="img/photo-07@1x.jpg" alt="" width="232" height="166">
+        </div>
+      </section>
+    </div>
+
   </main>
 
   <footer class="footer">

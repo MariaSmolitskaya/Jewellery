@@ -1,3 +1,31 @@
-h5 {
-  color: red;
+.article {
+  display: flex;
+}
+
+.article__desc {
+  box-sizing: border-box;
+  width: 285px;
+  height: 300px;
+  padding-top: 71px;
+  padding-left: 61px;
+  padding-right: 61px;
+  background-color: $beige;
+}
+
+.article__date {
+  color: $grey;
+  font-size: 14px;
+}
+
+.article__title {
+  font-family: $ff-secondary;
+  font-size: 26px;
+  line-height: 34px;
+  color: $black2;
+}
+
+.article__link {
+  color: $black;
+  text-decoration: none;
+  border-bottom: 1px solid $decor;
 }
