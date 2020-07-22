@@ -1,3 +1,42 @@
-h5 {
-  color: red;
+.questions__title {
+  font-family: $ff-secondary;
+  font-size: 34px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 60px;
+}
+
+.questions__item {
+  border-left: 1px solid $decor;
+  border-top: 1px solid $decor;
+  border-right: 1px solid $decor;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.questions__item:last-child {
+  border-bottom: 1px solid $decor;
+}
+
+.questions__name {
+  font-size: 18px;
+  margin-top: 50px;
+  margin-left: 38px;
+}
+
+.questions__text {
+  width: 527px;
+  margin-left: 50px;
+}
+
+.questions__btn {
+  @include btn-reset;
+  position: absolute;
+  top: 52px;
+  right: 50px;
+  cursor: pointer;
+
+  &:hover .questions__icon {
+    opacity: 0.6;
+  }
 }

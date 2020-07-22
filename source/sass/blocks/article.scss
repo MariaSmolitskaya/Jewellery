@@ -12,6 +12,10 @@
   background-color: $beige;
 }
 
+.article__desc--reversed {
+  order: -1;
+}
+
 .article__date {
   color: $grey;
   font-size: 14px;
@@ -28,4 +32,25 @@
   color: $black;
   text-decoration: none;
   border-bottom: 1px solid $decor;
+
+  &:hover {
+    color: $decor;
+  }
+}
+
+.article--big {
+  float: right;
+  margin-top: -660px;
+  position: relative;
+}
+
+.article--big .article__img {
+  width: 570px;
+  height: 630px;
+}
+
+.article--big .article__desc {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
