@@ -31,3 +31,9 @@
   font-style: italic;
   font-weight: normal;
 }
+
+@media (max-width: $desktop-width) {
+  .tagline {
+    background-image: url("../img/background-tablet@1x.png");
+  }
+}
