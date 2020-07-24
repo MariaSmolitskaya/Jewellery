@@ -14,3 +14,10 @@
   font-size: 14px;
   font-weight: bold;
 }
+
+@media (max-width: $desktop-width) {
+  .goods__img {
+    width: 324px;
+    height: 340px;
+  }
+}

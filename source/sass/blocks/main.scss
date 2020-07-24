@@ -29,3 +29,12 @@
   margin-bottom: 130px;
 }
 
+@media (max-width: $desktop-width) {
+  .main__wrapper {
+    width: 678px;
+  }
+
+  .main .slider {
+    margin-top: 80px;
+  }
+}

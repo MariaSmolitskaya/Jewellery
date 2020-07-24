@@ -55,6 +55,20 @@
   margin-right: 15px;
 }
 
+.slider__count--fourth,
+.slider__count--fifth
+
 .slider__count--first {
   font-weight: bold;
+}
+
+@media (max-width: $desktop-width) {
+  .slider__wrapper {
+    width: 678px;
+    overflow: hidden;
+  }
+
+  .slider__item {
+    flex-shrink: 0;
+  }
 }
