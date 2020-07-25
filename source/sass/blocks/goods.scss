@@ -15,9 +15,28 @@
   font-weight: bold;
 }
 
+.goods__img {
+  width: 270px;
+  height: 284px;
+}
+
 @media (max-width: $desktop-width) {
   .goods__img {
     width: 324px;
     height: 340px;
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .goods__img {
+    width: 130px;
+    height: 136px;
+  }
+
+  .goods__title {
+    width: 130px;
+  }
+  .goods__price {
+    margin-top: 10px;
   }
 }

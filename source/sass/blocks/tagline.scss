@@ -37,3 +37,9 @@
     background-image: url("../img/background-tablet@1x.png");
   }
 }
+
+@media (max-width: $tablet-width) {
+  .tagline {
+    background-image: url("../img/background-mobile@1x.png");
+  }
+}

@@ -26,3 +26,53 @@
   justify-content: space-between;
   align-items: flex-end;
 }
+
+.insta-tag__img--01,
+.insta-tag__img--02,
+.insta-tag__img--03,
+.insta-tag__img--04,
+.insta-tag__img--05,
+.insta-tag__img--06,
+.insta-tag__img--07 {
+  width: auto;
+  height: auto;
+}
+
+@media (max-width: $desktop-width) {
+  .insta-tag__photos {
+    height: 240px;
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .insta-tag__photos {
+    height: 362px;
+    margin-top: 46px;
+  }
+
+  .insta-tag__img--01 {
+    order: 1;
+  }
+
+  .insta-tag__img--02 {
+    order: 2;
+  }
+
+  .insta-tag__img--05 {
+    order: 3;
+  }
+
+  .insta-tag__img--03 {
+    order: 4;
+  }
+
+  .insta-tag__img--04 {
+    order: 5;
+  }
+
+  .insta-tag__img--06,
+  .insta-tag__img--07 {
+    display: none;
+  }
+}
+

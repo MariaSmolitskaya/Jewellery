@@ -92,13 +92,21 @@
         <div class="slider__wrapper">
           <div class="slider__item goods">
             <a href="product.html">
-              <img class="goods__img" src="img/purple-gemstone-necklace@1x.jpg" alt="Necklace with amethyst" width="270" height="284">
+              <picture>
+                <source class="goods__img" media="(min-width: 1024px)" srcset="img/purple-gemstone-necklace@1x.jpg">
+                <source class="goods__img" media="(min-width: 768px)" srcset="img/purple-gemstone-necklace-tablet@1x.png">
+                <img class="goods__img" src="img/purple-gemstone-necklace-mobile@1x.png" alt="Necklace with amethyst" width="130" height="136">
+              </picture>
             </a>
             <div class="goods__title">Necklace with amethyst</div>
             <div class="goods__price">$ 145</div>
           </div>
           <div class="slider__item goods">
-            <img class="goods__img" src="img/layered-choker-necklace@1x.jpg" alt="Layered сhoker" width="270" height="284">
+            <picture>
+              <source class="goods__img" media="(min-with: 1024px)" srcset="img/layered-choker-necklace@1x.jpg">
+              <source class="goods__img" media="(min-width: 768px)" srcset="img/layered-choker-necklace-tablet@1x.png">
+              <img class="goods__img" src="img/layered-choker-necklace-mobile@1x.jpg" alt="Layered сhoker" width="130" height="136">
+            </picture>
             <div class="goods__title">Layered сhoker</div>
             <div class="goods__price">$ 115</div>
           </div>
@@ -115,10 +123,11 @@
         </div>
         <div class="slider__counter">
           <span class="slider__count slider__count--first">1</span>
-          <span class="slider__count">2</span>
-          <span class="slider__count">3</span>
+          <span class="slider__count slider__count--second">2</span>
+          <span class="slider__count slider__count--third">3</span>
           <span class="slider__count slider__count--fourth">4</span>
           <span class="slider__count slider__count--fifth">5</span>
+          <span class="slider__count slider__count--of">of</span>
           <span class="slider__count slider__count--sixth">6</span>
         </div>
       </section>
@@ -128,7 +137,11 @@
         <a class="blog__link" href="#">Read All</a>
         <div class="blog__wrapper">
           <article class="blog__item article">
-            <img class="article__img" src="img/img-article-01.jpg" alt="" width="285" height="300">
+            <picture class="article__img">
+              <source media="(min-width: 1024px)" srcset="img/img-article-01.jpg">
+              <source media="(min-width: 768px)" srcset="img/img-article-01-tablet.jpg">
+              <img class="article__img" src="img/img-article-01-mobile.jpg" alt="" width="290" height="256">
+            </picture>
             <div class="article__desc">
               <div class="article__date">September 30, 2019</div>
               <h3 class="article__title">How to care for your jewellery</h3>
@@ -136,7 +149,11 @@
             </div>
           </article>
           <article class="blog__item article">
-            <img class="article__img" src="img/img-article-02.jpg" alt="" width="285" height="300">
+            <picture class="article__img">
+              <source media="(min-width: 1024px)" srcset="img/img-article-02.jpg">
+              <source media="(min-width: 768px)" srcset="img/img-article-02-tablet.jpg">
+              <img class="article__img" src="img/img-article-02-mobile.jpg" alt="" width="290" height="256">
+            </picture>
             <div class="article__desc article__desc--reversed">
               <div class="article__date">September 23, 2019</div>
               <h3 class="article__title">Power of crystals</h3>
@@ -144,7 +161,11 @@
             </div>
           </article>
           <article class="blog__item article article--big">
-            <img class="article__img " src="img/img-article-03.jpg" alt="" width="285" height="300">
+            <picture class="article__img">
+              <source media="(min-width: 1024px)" srcset="img/img-article-03.jpg">
+              <source media="(min-width: 768px)" srcset="img/img-article-03-tablet.jpg">
+              <img class="article__img" src="img/img-article-03-mobile.jpg" alt="" width="290" height="256">
+            </picture>
             <div class="article__desc">
               <div class="article__date">September 16, 2019</div>
               <h3 class="article__title">AW 19 trends</h3>
@@ -156,7 +177,7 @@
 
       <section class="questions">
         <h2 class="questions__title">Frequently asked questions</h2>
-        <div class="questions__item ">
+        <div class="questions__item questions__item--material">
           <button class="questions__btn">
             <svg class="questions__icon" width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path class="questions__icon" d="M16 9L8.5 1L1 9" stroke="#A87B62"/>
@@ -165,7 +186,7 @@
           <h3 class="questions__name">What materials are the jewellery made of?</h3>
           <div class="questions__text">Our jewellerry is made of solid gold, silver or leather. Also, some jewellery contains precious and semiprecious stones and crystals.</div>
         </div>
-        <div class="questions__item">
+        <div class="questions__item questions__item--deliver">
           <button class="questions__btn">
             <svg class="questions__icon" width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path class="questions__icon" d="M16 9L8.5 1L1 9" stroke="#A87B62"/>
@@ -174,7 +195,7 @@
           <h3 class="questions__name">Which countries do you deliver to?</h3>
           <div class="questions__text">Our jewellerry is made of solid gold, silver or leather. Also, some jewellery contains precious and semiprecious stones and crystals.</div>
         </div>
-        <div class="questions__item">
+        <div class="questions__item questions__item--payment">
           <button class="questions__btn">
             <svg class="questions__icon" width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path class="questions__icon" d="M16 9L8.5 1L1 9" stroke="#A87B62"/>
@@ -183,7 +204,7 @@
           <h3 class="questions__name">What are the payment methods?</h3>
           <div class="questions__text">Our jewellerry is made of solid gold, silver or leather. Also, some jewellery contains precious and semiprecious stones and crystals.</div>
         </div>
-        <div class="questions__item">
+        <div class="questions__item questions__item--return">
           <button class="questions__btn">
             <svg class="questions__icon" width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path class="questions__icon" d="M16 9L8.5 1L1 9" stroke="#A87B62"/>
@@ -198,13 +219,39 @@
         <h2 class="insta-tag__title">@Chjewellery</h2>
         <a class="insta-tag__link" href="#">Follow Us</a>
         <div class="insta-tag__photos">
-          <img class="insta-tag__img" src="img/photo-01@1x.jpg" alt="" width="230" height="230">
-          <img class="insta-tag__img" src="img/photo-02@1x.jpg" alt="" width="230" height="154">
-          <img class="insta-tag__img" src="img/photo-03@1x.jpg" alt="" width="400" height="414">
-          <img class="insta-tag__img" src="img/photo-04@1x.jpg" alt="" width="232" height="193">
-          <img class="insta-tag__img" src="img/photo-05@1x.jpg" alt="" width="218" height="191">
-          <img class="insta-tag__img" src="img/photo-06@1x.jpg" alt="" width="218" height="218">
-          <img class="insta-tag__img" src="img/photo-07@1x.jpg" alt="" width="232" height="166">
+          <picture class="insta-tag__img insta-tag__img--01">
+            <source media="(min-width: 1024px)" srcset="img/photo-01@1x.jpg">
+            <source media="(min-width: 768px)" srcset="img/photo-01-tablet@1x.jpg">
+            <img class="insta-tag__img insta-tag__img--01" src="img/photo-01-mobile@1x.jpg" alt="" width="130" height="130">
+          </picture>
+          <picture class="insta-tag__img insta-tag__img--02">
+            <source media="(min-width: 1024px)" srcset="img/photo-02@1x.jpg">
+            <source media="(min-width: 768px)" srcset="img/photo-02-tablet@1x.png">
+            <img class="insta-tag__img insta-tag__img--02" src="img/photo-02-mobile@1x.jpg" alt="" width="130" height="87">
+          </picture>
+          <picture class="insta-tag__img insta-tag__img--03">
+            <source media="(min-width: 1024px)" srcset="img/photo-03@1x.jpg">
+            <source media="(min-width: 768px)" srcset="img/photo-03-tablet@1x.jpg">
+            <img class="insta-tag__img insta-tag__img--03" src="img/photo-03-mobile@1x.jpg" alt="" width="145" height="226">
+          </picture>
+          <picture class="insta-tag__img insta-tag__img--04">
+            <source media="(min-width: 1024px)" srcset="img/photo-04@1x.jpg">
+            <source media="(min-width: 768px)" srcset="img/photo-04-tablet@1x.jpg">
+            <img class="insta-tag__img insta-tag__img--04" src="img/photo-04-mobile@1x.jpg" alt="" width="145" height="121">
+          </picture>
+          <picture class="insta-tag__img insta-tag__img--05">
+            <source media="(min-width: 1024px)" srcset="img/photo-05@1x.jpg">
+            <source media="(min-width: 768px)" srcset="img/photo-05-tablet@1x.jpg">
+            <img class="insta-tag__img insta-tag__img--05" src="img/photo-05-mobile@1x.jpg" alt="" width="130" height="115">
+          </picture>
+          <picture>
+            <source class="insta-tag__img" media="(min-width: 1024px)" srcset="img/photo-06@1x.jpg">
+            <img class="insta-tag__img insta-tag__img--06" src="img/photo-06-tablet@1x.jpg" alt="" width="126" height="126">
+          </picture>
+          <picture>
+            <source class="insta-tag__img" media="(min-width: 1024px)" srcset="img/photo-07@1x.jpg">
+            <img class="insta-tag__img insta-tag__img--07" src="img/photo-07-tablet@1x.jpg" alt="" width="134" height="96">
+          </picture>
         </div>
       </section>
     </div>

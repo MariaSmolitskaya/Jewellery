@@ -37,4 +37,35 @@
   .main .slider {
     margin-top: 80px;
   }
+
+  .main .blog {
+    margin-top: 80px;
+  }
+
+  .main .questions {
+    margin-top: 80px;
+  }
+
+  .main .insta-tag {
+    margin-top: 84px;
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .main__wrapper {
+    width: 290px;
+  }
+
+  .main .slider {
+    margin-top: 70px;
+  }
+
+  .main .blog {
+    margin-top: 70px;
+  }
+
+  .main .insta-tag {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
 }

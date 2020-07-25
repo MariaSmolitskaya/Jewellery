@@ -2,6 +2,7 @@
   font-family: $ff-secondary;
   font-size: 34px;
   text-align: center;
+  line-height: 44px;
   letter-spacing: 0.03em;
   margin-bottom: 60px;
 }
@@ -25,7 +26,7 @@
 }
 
 .questions__text {
-  width: 527px;
+  width: 535px;
   margin-left: 50px;
 }
 
@@ -38,5 +39,47 @@
 
   &:hover .questions__icon {
     opacity: 0.6;
+  }
+}
+
+@media (max-width: $desktop-width) {
+  .questions__icon {
+    width: 23px;
+    height: 12px;
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .questions__name {
+    font-size: 16px;
+    margin-top: 22px;
+    margin-left: 25px;
+  }
+
+  .questions__item--material .questions__name {
+    width: 185px;
+  }
+
+  .questions__item--deliver .questions__name {
+    width: 142px;
+  }
+
+  .questions__item--payment .questions__name {
+    width: 159px;
+  }
+
+  .questions__item--return .questions__name {
+    width: 206px;
+  }
+
+ .questions__text {
+   width: 206px;
+   font-size: 14px;
+   margin-left: 25px;
+  }
+
+  .questions__btn {
+    top: 25px;
+    right: 25px;
   }
 }
