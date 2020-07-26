@@ -8,6 +8,7 @@
 .slider__title {
   font-family: $ff-secondary;
   font-size: 34px;
+  margin-bottom: 23px;
   line-height: 44px;
 }
 
@@ -24,6 +25,7 @@
 .slider__btn {
   @include btn-reset;
   position: absolute;
+  top: 40px;
   cursor: pointer;
 
   &:hover {
@@ -87,6 +89,10 @@
 }
 
 @media (max-width: $tablet-width) {
+  .slider {
+    overflow: hidden;
+  }
+
   .slider__wrapper {
     margin-top: 40px;
   }
