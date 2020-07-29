@@ -1,3 +1,14 @@
-h5 {
-  color: red;
+.button {
+  @include btn-reset;
+  width: 250px;
+  height: 68px;
+  font-family: $ff-primary;
+  font-size: 16px;
+  background-color: $decor;
+  color: $base-color;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba($decor, 0.8);
+  }
 }

@@ -6,20 +6,7 @@
 }
 
 .slider__title {
-  font-family: $ff-secondary;
-  font-size: 34px;
   margin-bottom: 23px;
-  line-height: 44px;
-}
-
-.slider__link {
-  color: $black;
-  text-decoration: none;
-  border-bottom: 1px solid $decor;
-
-  &:hover {
-    color: $decor;
-  }
 }
 
 .slider__btn {

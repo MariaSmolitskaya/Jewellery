@@ -6,6 +6,21 @@
   flex-shrink: 0;
 }
 
+.footer--catalog {
+  position: relative;
+}
+
+.footer--catalog:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -130px;
+  left: -98px;
+  width: calc(100% + 87px);
+  height: 0;
+  border: 1px solid $grey2;
+}
+
 .footer .sign__input {
   margin-top: 45px;
 }

@@ -8,8 +8,16 @@
   margin-left: auto;
 }
 
+.main__wrapper--catalog {
+  display: flex;
+}
+
 .main .tagline {
   margin-top: 61px;
+}
+
+.main .tagline--catalog {
+  margin-top: 0;
 }
 
 .main .slider {
@@ -27,6 +35,16 @@
 .main .insta-tag {
   margin-top: 119px;
   margin-bottom: 130px;
+}
+
+.main .filters {
+  margin-top: 80px;
+}
+
+.main .catalog {
+  margin-top: 80px;
+  margin-left: 50px;
+  margin-bottom: 80px;
 }
 
 @media (max-width: $desktop-width) {

@@ -1,3 +1,35 @@
-h5 {
-  color: red;
+.catalog {
+  width: 870px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.catalog__goods {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.catalog__goods:nth-child(3n) {
+  margin-right: 0;
+}
+
+.catalog__btn {
+  @include btn-reset;
+  font-family: $ff-primary;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.catalog__counter {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog__counter-wrapper {
+  width: 96px;
+  display: flex;
+  justify-content: space-between;
 }

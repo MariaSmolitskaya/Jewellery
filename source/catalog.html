@@ -73,154 +73,189 @@
 <div class="wrapper">
   <main class="main">
     <div class="tagline tagline--catalog">
-      <h1 class="tagline__title">ALL JEWELLERY</h1>
-      <span class="tagline__text">Discover picks of fashion's finest trends in our jewellery catalog</span>
+      <div class="tagline__wrapper">
+        <h1 class="tagline__title">ALL JEWELLERY</h1>
+        <span class="tagline__text">Discover picks of fashion's finest trends in our jewellery catalog</span>
+      </div>
     </div>
 
-    <form class="filters">
-      <div class="filters__product">
-        <h2 class="filters__title">Product</h2>
-        <ul class="filters__list">
-          <li class="filters__item">
-            <label class="filters__label" for="check1">Necklaces</label>
-            <input class="filters__checkbox" type="checkbox" id="check1" value="necklaces">
-          </li>
-          <li class="filters__item">
-            <label class="filters__label" for="check2">Chokers</label>
-            <input class="filters__checkbox" type="checkbox" id="check2" value="chokers">
-          </li>
-          <li class="filters__item">
-            <label class="filters__label" for="check3">Rings</label>
-            <input class="filters__checkbox" type="checkbox" id="check3" value="rings">
-          </li>
-          <li class="filters__item">
-            <label class="filters__label" for="check4">Earrings</label>
-            <input class="filters__checkbox" type="checkbox" id="check4" value="earrings">
-          </li>
-        </ul>
-      </div>
-      <div class="filters__material">
-        <h2 class="filters__title">Material</h2>
-        <ul class="filters__list">
-          <li class="filters__item">
-            <label class="filters__label" for="check5">Necklaces</label>
-            <input class="filters__checkbox" type="checkbox" id="check5" value="necklaces">
-          </li>
-          <li class="filters__item">
-            <label class="filters__label" for="check6">Chokers</label>
-            <input class="filters__checkbox" type="checkbox" id="check6" value="chokers">
-          </li>
-          <li class="filters__item">
-            <label class="filters__label" for="check7">Rings</label>
-            <input class="filters__checkbox" type="checkbox" id="check7" value="rings">
-          </li>
-          <li class="filters__item">
-            <label class="filters__label" for="check8">Earrings</label>
-            <input class="filters__checkbox" type="checkbox" id="check8" value="earrings">
-          </li>
-        </ul>
-      </div>
-      <div class="filters__collection">
-        <h2 class="filters__title">Collection</h2>
-        <ul class="filters__list">
-          <li class="filters__item">
-            <label class="filters__label" for="check9">Necklaces</label>
-            <input class="filters__checkbox" type="checkbox" id="check9" value="necklaces">
-          </li>
-          <li class="filters__item">
-            <label class="filters__label" for="check10">Chokers</label>
-            <input class="filters__checkbox" type="checkbox" id="check10" value="chokers">
-          </li>
-          <li class="filters__item">
-            <label class="filters__label" for="check11">Rings</label>
-            <input class="filters__checkbox" type="checkbox" id="check11" value="rings">
-          </li>
-          <li class="filters__item">
-            <label class="filters__label" for="check12">Earrings</label>
-            <input class="filters__checkbox" type="checkbox" id="check12" value="earrings">
-          </li>
-        </ul>
-      </div>
-      <div class="filters__price">
-        <h2 class="filters__title">Price</h2>
-        <div class="filters__slider">
-          <label class="visually-hidden" for="price">Price</label>
-          <input class="filters__range" type="range" min="10" max="500" id="price">
+    <div class="main__wrapper main__wrapper--catalog">
+      <form class="filters">
+        <div class="filters__box">
+          <h2 class="filters__title">Product</h2>
+          <button class="filters__btn" type="button">
+            <svg class="filters__icon" width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="filters__icon" d="M16 9L8.5 1L1 9" stroke="#A87B62"/>
+            </svg>
+          </button>
+          <ul class="filters__list">
+            <li class="filters__item">
+              <input class="filters__checkbox" type="checkbox" id="check1" value="necklaces">
+              <label class="filters__label" for="check1">Necklaces</label>
+            </li>
+            <li class="filters__item">
+              <input class="filters__checkbox" type="checkbox" id="check2" value="chokers">
+              <label class="filters__label" for="check2">Chokers</label>
+            </li>
+            <li class="filters__item">
+              <input class="filters__checkbox" type="checkbox" id="check3" value="rings">
+              <label class="filters__label" for="check3">Rings</label>
+            </li>
+            <li class="filters__item">
+              <input class="filters__checkbox" type="checkbox" id="check4" value="earrings">
+              <label class="filters__label" for="check4">Earrings</label>
+            </li>
+          </ul>
         </div>
-      </div>
-      <button class="filters__submit button" type="submit">Apply</button>
-      <button class="filters__clear" type="reset">Clear All</button>
-    </form>
+        <div class="filters__box">
+          <h2 class="filters__title">Material</h2>
+          <button class="filters__btn" type="button">
+            <svg class="filters__icon" width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="filters__icon" d="M16 9L8.5 1L1 9" stroke="#A87B62"/>
+            </svg>
+          </button>
+          <ul class="filters__list">
+            <li class="filters__item">
+              <input class="filters__checkbox" type="checkbox" id="check5" value="necklaces">
+              <label class="filters__label" for="check5">Necklaces</label>
+            </li>
+            <li class="filters__item">
+              <input class="filters__checkbox" type="checkbox" id="check6" value="chokers">
+              <label class="filters__label" for="check6">Chokers</label>
+            </li>
+            <li class="filters__item">
+              <input class="filters__checkbox" type="checkbox" id="check7" value="rings">
+              <label class="filters__label" for="check7">Rings</label>
+            </li>
+            <li class="filters__item">
+              <input class="filters__checkbox" type="checkbox" id="check8" value="earrings">
+              <label class="filters__label" for="check8">Earrings</label>
+            </li>
+          </ul>
+        </div>
+        <div class="filters__box">
+          <h2 class="filters__title">Collection</h2>
+          <button class="filters__btn" type="button">
+            <svg class="filters__icon" width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="filters__icon" d="M16 9L8.5 1L1 9" stroke="#A87B62"/>
+            </svg>
+          </button>
+          <ul class="filters__list">
+            <li class="filters__item">
+              <input class="filters__checkbox" type="checkbox" id="check9" value="necklaces">
+              <label class="filters__label" for="check9">Necklaces</label>
+            </li>
+            <li class="filters__item">
+              <input class="filters__checkbox" type="checkbox" id="check10" value="chokers">
+              <label class="filters__label" for="check10">Chokers</label>
+            </li>
+            <li class="filters__item">
+              <input class="filters__checkbox" type="checkbox" id="check11" value="rings">
+              <label class="filters__label" for="check11">Rings</label>
+            </li>
+            <li class="filters__item">
+              <input class="filters__checkbox" type="checkbox" id="check12" value="earrings">
+              <label class="filters__label" for="check12">Earrings</label>
+            </li>
+          </ul>
+        </div>
+        <div class="filters__box">
+          <h2 class="filters__title">Price</h2>
+          <button class="filters__btn" type="button">
+            <svg class="filters__icon" width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="filters__icon" d="M16 9L8.5 1L1 9" stroke="#A87B62"/>
+            </svg>
+          </button>
+          <div class="filters__slider">
+            <label class="visually-hidden" for="price">Price</label>
+            <div class="filters__slider-container">
+              <input class="filters__range" type="range" min="10" max="500" id="price" >
+            </div>
+          </div>
+        </div>
+        <button class="filters__submit button" type="submit">Apply</button>
+        <button class="filters__clear link" type="reset">Clear All</button>
+      </form>
 
-    <section class="catalog">
-      <div class="catalog__goods goods">
-        <a href="product.html">
-          <img class="goods__img" src="img/double-pearl-earrings@1x.jpg" width="270" height="272" alt="double pearl earrings">
-        </a>
-        <span class="goods__title">Double pearl earrings</span>
-        <span class="goods__price">$ 115</span>
-      </div>
-      <div class="catalog__goods goods">
-        <img class="goods__img" src="img/black-choker-gold-bead@1x.jpg" width="270" height="272" alt="choker with gold bead">
-        <span class="goods__title">Choker with gold bead</span>
-        <span class="goods__price">$ 55</span>
-      </div>
-      <div class="catalog__goods goods">
-        <img class="goods__img" src="img/gold-layered-necklace@1x.jpg" width="270" height="272" alt="Gold layered necklace">
-        <span class="goods__title">Gold layered necklace</span>
-        <span class="goods__price">$ 155</span>
-      </div>
-      <div class="catalog__goods goods">
-        <img class="goods__img" src="img/blue-gemstone-pendant@1x.jpg" width="270" height="272" alt="Blue gemstone pendant">
-        <span class="goods__title">Blue gemstone pendant</span>
-        <span class="goods__price">$ 105</span>
-      </div>
-      <div class="catalog__goods goods">
-        <img class="goods__img" src="img/boho-earrings@1x.jpg" width="270" height="272" alt="Boho earrings">
-        <span class="goods__title">Boho earrings</span>
-        <span class="goods__price">$ 75</span>
-      </div>
-      <div class="catalog__goods goods">
-        <img class="goods__img" src="img/bird-necklace@1x.jpg" width="270" height="272" alt="Gold bird necklace">
-        <span class="goods__title">Gold bird necklace</span>
-        <span class="goods__price">$ 135</span>
-      </div>
-      <div class="catalog__goods goods">
-        <img class="goods__img" src="img/black-leather-choker-necklace@1x.jpg" width="270" height="272" alt="Black leather choker">
-        <span class="goods__title">Black leather choker</span>
-        <span class="goods__price">$ 115</span>
-      </div>
-      <div class="catalog__goods goods">
-        <img class="goods__img" src="img/purple-gemstone-necklace@1x.jpg" width="270" height="272" alt="Necklace with amethyst">
-        <span class="goods__title">Necklace with amethyst</span>
-        <span class="goods__price">$ 145</span>
-      </div>
-      <div class="catalog__goods goods">
-        <img class="goods__img" src="img/elephant-earrings@1x.jpg" width="270" height="272" alt="Elephant earrings">
-        <span class="goods__title">Elephant earrings</span>
-        <span class="goods__price">$ 95</span>
-      </div>
-      <div class="catalog__goods goods">
-        <img class="goods__img" src="img/threader-necklace-closeup@1x.jpg" width="270" height="272" alt="Threader necklace">
-        <span class="goods__title">Threader necklace</span>
-        <span class="goods__price">$ 115</span>
-      </div>
-      <div class="catalog__goods goods">
-        <img class="goods__img" src="img/origami-crane-necklace@1x.jpg" width="270" height="272" alt="Origami crane necklace">
-        <span class="goods__title">Origami crane necklace</span>
-        <span class="goods__price">$ 105</span>
-      </div>
-      <div class="catalog__goods goods">
-        <img class="goods__img" src="img/marble-earrings@1x.jpg" width="270" height="272" alt="Marble earrings">
-        <span class="goods__title">Marble earrings</span>
-        <span class="goods__price">$ 95</span>
-      </div>
-      <button class="catalog__button catalog__button--prev" type="button">Previous</button>
-      <button class="catalog__button catalog__button--next" type="button">Next</button>
-    </section>
+      <section class="catalog">
+        <div class="catalog__goods goods">
+          <a href="product.html">
+            <img class="goods__img" src="img/double-pearl-earrings@1x.jpg" width="270" height="272" alt="double pearl earrings">
+          </a>
+          <div class="goods__title">Double pearl earrings</div>
+          <div class="goods__price">$ 115</div>
+        </div>
+        <div class="catalog__goods goods">
+          <img class="goods__img" src="img/black-choker-gold-bead@1x.jpg" width="270" height="272" alt="choker with gold bead">
+          <div class="goods__title">Choker with gold bead</div>
+          <div class="goods__price">$ 55</div>
+        </div>
+        <div class="catalog__goods goods">
+          <img class="goods__img" src="img/gold-layered-necklace@1x.jpg" width="270" height="272" alt="Gold layered necklace">
+          <div class="goods__title">Gold layered necklace</div>
+          <div class="goods__price">$ 155</div>
+        </div>
+        <div class="catalog__goods goods">
+          <img class="goods__img" src="img/blue-gemstone-pendant@1x.jpg" width="270" height="272" alt="Blue gemstone pendant">
+          <div class="goods__title">Blue gemstone pendant</div>
+          <div class="goods__price">$ 105</div>
+        </div>
+        <div class="catalog__goods goods">
+          <img class="goods__img" src="img/boho-earrings@1x.jpg" width="270" height="272" alt="Boho earrings">
+          <div class="goods__title">Boho earrings</div>
+          <div class="goods__price">$ 75</div>
+        </div>
+        <div class="catalog__goods goods">
+          <img class="goods__img" src="img/bird-necklace@1x.jpg" width="270" height="272" alt="Gold bird necklace">
+          <div class="goods__title">Gold bird necklace</div>
+          <div class="goods__price">$ 135</div>
+        </div>
+        <div class="catalog__goods goods">
+          <img class="goods__img" src="img/black-leather-choker-necklace@1x.jpg" width="270" height="272" alt="Black leather choker">
+          <div class="goods__title">Black leather choker</div>
+          <div class="goods__price">$ 115</div>
+        </div>
+        <div class="catalog__goods goods">
+          <img class="goods__img" src="img/purple-gemstone-necklace@1x.jpg" width="270" height="272" alt="Necklace with amethyst">
+          <div class="goods__title">Necklace with amethyst</div>
+          <div class="goods__price">$ 145</div>
+        </div>
+        <div class="catalog__goods goods">
+          <img class="goods__img" src="img/elephant-earrings@1x.jpg" width="270" height="272" alt="Elephant earrings">
+          <div class="goods__title">Elephant earrings</div>
+          <div class="goods__price">$ 95</div>
+        </div>
+        <div class="catalog__goods goods">
+          <img class="goods__img" src="img/threader-necklace-closeup@1x.jpg" width="270" height="272" alt="Threader necklace">
+          <div class="goods__title">Threader necklace</div>
+          <div class="goods__price">$ 115</div>
+        </div>
+        <div class="catalog__goods goods">
+          <img class="goods__img" src="img/origami-crane-necklace@1x.jpg" width="270" height="272" alt="Origami crane necklace">
+          <div class="goods__title">Origami crane necklace</div>
+          <div class="goods__price">$ 105</div>
+        </div>
+        <div class="catalog__goods goods">
+          <img class="goods__img" src="img/marble-earrings@1x.jpg" width="270" height="272" alt="Marble earrings">
+          <div class="goods__title">Marble earrings</div>
+          <div class="goods__price">$ 95</div>
+        </div>
+        <div class="catalog__counter">
+          <button class="catalog__btn catalog__btn--prev" type="button" aria-label="show previous">Previous</button>
+          <div class="catalog__counter-wrapper">
+            <span class="catalog__count catalog__count--first">1</span>
+            <span class="catalog__count catalog__count--second">2</span>
+            <span class="catalog__count catalog__count--third">3</span>
+            <span class="catalog__count catalog__count--fourth">4</span>
+            <span class="catalog__count catalog__count--fifth">5</span>
+          </div>
+          <button class="catalog__btn catalog__btn--next" type="button" aria-label="show next">Next</button>
+        </div>
+      </section>
+    </div>
   </main>
 
-  <footer class="footer">
+  <footer class="footer footer--catalog">
     <section class="footer__sign sign">
       <h2 class="sign__title">The good stuff in your inbox</h2>
       <span class="sign__text">News and updates from CH. No spam, we promise.</span>

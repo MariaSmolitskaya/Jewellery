@@ -12,6 +12,12 @@
   color: $base-color;
 }
 
+.tagline--catalog {
+  height: 261px;
+  padding-top: 95px;
+  background-image: url("../img/background-catalog@1x.jpg");
+}
+
 .tagline__wrapper {
   width: 285px;
   margin-left: auto;
@@ -19,12 +25,20 @@
   text-align: center;
 }
 
+.tagline--catalog .tagline__wrapper {
+  width: 488px;
+}
+
 .tagline__title {
   margin: 0;
-
   font-size: 45px;
   line-height: 58px;
   letter-spacing: 0.03em;
+}
+
+.tagline--catalog .tagline__title {
+  font-size: 34px;
+  line-height: 44px;
 }
 
 .tagline__text {
@@ -32,6 +46,11 @@
   font-style: italic;
   font-weight: normal;
   line-height: 49px;
+}
+
+.tagline--catalog .tagline__text {
+  font-size: 22px;
+  line-height: 29px;
 }
 
 @media (max-width: $desktop-width) {

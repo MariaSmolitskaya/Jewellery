@@ -3,19 +3,7 @@
 }
 
 .insta-tag__title {
-  font-family: $ff-secondary;
-  font-size: 34px;
   letter-spacing: 0.03em;
-}
-
-.insta-tag__link {
-  color: $black;
-  text-decoration: none;
-  border-bottom: 1px solid $decor;
-
-  &:hover {
-    color: $decor;
-  }
 }
 
 .insta-tag__photos {
