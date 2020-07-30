@@ -10,7 +10,7 @@
   position: relative;
 }
 
-.footer--catalog:before {
+.footer--catalog::before {
   content: "";
   display: block;
   position: absolute;

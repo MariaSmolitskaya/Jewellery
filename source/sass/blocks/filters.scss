@@ -31,7 +31,7 @@
   cursor: pointer;
 
   &:hover {
-  opacity: 0.5;
+    opacity: 0.5;
   }
 }
 
@@ -50,7 +50,7 @@
   cursor: pointer;
 }
 
-.filters__checkbox:after {
+.filters__checkbox::after {
   content: "";
   display: block;
   position: absolute;
@@ -62,11 +62,11 @@
   border: 1px solid $decor;
 }
 
-.filters__checkbox:checked:after{
+.filters__checkbox:checked::after {
   background-color: $decor;
 }
 
-.filters__checkbox:hover:after {
+.filters__checkbox:hover::after {
   border-color: rgba($decor, 0.5);
 }
 

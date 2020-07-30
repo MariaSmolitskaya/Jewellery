@@ -30,23 +30,51 @@
   .insta-tag__photos {
     height: 240px;
   }
+
+  .insta-tag__img--01 {
+    width: 133px;
+  }
+
+  .insta-tag__img--02 {
+    width: 133px;
+  }
+
+  .insta-tag__img--04 {
+    width: 134px;
+  }
+
+  .insta-tag__img--05 {
+    width: 126px;
+  }
+
+  .insta-tag__img--06 {
+    width: 126px;
+  }
+
+  .insta-tag__img--07 {
+    width: 134px;
+  }
 }
 
 @media (max-width: $tablet-width) {
   .insta-tag__photos {
     height: 362px;
     margin-top: 46px;
+    align-items: unset;
   }
 
   .insta-tag__img--01 {
+    width: 130px;
     order: 1;
   }
 
   .insta-tag__img--02 {
+    width: 130px;
     order: 2;
   }
 
   .insta-tag__img--05 {
+    width: 130px;
     order: 3;
   }
 
@@ -55,6 +83,7 @@
   }
 
   .insta-tag__img--04 {
+    width: 145px;
     order: 5;
   }
 
@@ -63,4 +92,3 @@
     display: none;
   }
 }
-
