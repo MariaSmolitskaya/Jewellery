@@ -115,3 +115,43 @@
   font-family: $ff-primary;
   font-size: 16px;
 }
+
+@media (max-width: $desktop-width) {
+  .filters {
+    width: 458px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .filters__title {
+    font-size: 18px;
+  }
+
+  .filters__label {
+    font-size: 16px;
+  }
+
+  .filters__submit {
+    width: 362px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .filters__clear {
+    width: 362px;
+    height: 68px;
+    box-sizing: border-box;
+    border: 1px solid $decor;
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .filters {
+    width: 280px;
+  }
+
+  .filters__submit,
+  .filters__clear {
+    width: 230px;
+  }
+}

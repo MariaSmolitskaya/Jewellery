@@ -75,9 +75,17 @@
     background-image: url("../img/background-tablet@1x.png");
   }
 
+  .tagline--catalog {
+    background-image: url("../img/background-catalog-tablet@1x.jpg");
+  }
+
   @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     .tagline {
       background-image: url("img/background-tablet@2.png");
+    }
+
+    .tagline--catalog {
+      background-image: url("../img/background-catalog@2x.jpg");
     }
   }
 }
@@ -88,9 +96,30 @@
     background-image: url("../img/background-mobile@1x.png");
   }
 
+  .tagline--catalog {
+    background-image: url("../img/background-catalog-mobile@1x.jpg");
+  }
+
+  .tagline--catalog .tagline__wrapper {
+    width: 248px;
+  }
+
+  .tagline--catalog .tagline__title {
+    white-space: nowrap;
+    letter-spacing: normal;
+  }
+
+  .tagline--catalog .tagline__text {
+    line-height: 22px;
+  }
+
   @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     .tagline {
       background-image: url("img/background-mobile@2.png");
+    }
+
+    .tagline--catalog {
+      background-image: url("../img/background-catalog-mobile@2x.jpg");
     }
   }
 }

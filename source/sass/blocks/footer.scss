@@ -108,4 +108,8 @@
     width: 20px;
     height: 18px;
   }
+
+  .footer--catalog::before {
+    display: none;
+  }
 }

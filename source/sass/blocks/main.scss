@@ -52,6 +52,10 @@
     width: 678px;
   }
 
+  .main__wrapper--catalog {
+    flex-direction: column;
+  }
+
   .main .slider {
     margin-top: 80px;
   }
@@ -66,6 +70,10 @@
 
   .main .insta-tag {
     margin-top: 84px;
+  }
+
+  .main .catalog {
+    margin-left: 0;
   }
 }
 
@@ -84,6 +92,10 @@
 
   .main .insta-tag {
     margin-top: 70px;
+    margin-bottom: 70px;
+  }
+
+  .main .catalog {
     margin-bottom: 70px;
   }
 }
