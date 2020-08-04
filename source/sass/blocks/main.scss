@@ -47,6 +47,14 @@
   margin-bottom: 80px;
 }
 
+.main .product {
+  margin-top: 80px;
+}
+
+.main--product .main__slider {
+  margin-bottom: 130px;
+}
+
 @media (max-width: $desktop-width) {
   .main__wrapper {
     width: 678px;

@@ -118,7 +118,7 @@
 
 @media (max-width: $desktop-width) {
   .filters {
-    width: 458px;
+    width: 442px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -129,6 +129,11 @@
 
   .filters__label {
     font-size: 16px;
+  }
+
+  .filters__slider-container {
+    width: 304px;
+    margin-left: 25px;
   }
 
   .filters__submit {
@@ -148,6 +153,11 @@
 @media (max-width: $tablet-width) {
   .filters {
     width: 280px;
+  }
+
+  .filters__slider-container {
+    width: 250px;
+    margin-left: -10px;
   }
 
   .filters__submit,

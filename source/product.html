@@ -36,7 +36,7 @@
     <a class="main-header__login" href="#">Login</a>
     <a class="main-header__cart" href="#">Cart 0</a>
   </div>
-  <div class="main-header__bottom menu">
+  <div class="main-header__bottom menu menu--border">
     <nav class="menu__nav">
       <ul class="menu__list">
         <li class="menu__item">
@@ -71,66 +71,98 @@
 </header>
 
 <div class="wrapper">
-  <main class="main">
-    <h1 class="visually-hidden">Jewellery product card</h1>
-    <section class="product">
-      <section class="product__images">
-        <img class="product__img" src="img/gold-necklace-for-women@1x.jpg" width="100" height="125" alt="gold necklace for women">
-        <img class="product__img" src="img/pretty-gold-necklace@1x.jpg" width="100" height="125" alt="pretty gold necklace">
-        <img class="product__img" src="img/women-necklace-set@1x.jpg" width="100" height="125" alt="women necklace set">
-        <img src="img/necklace-detail@1x.jpg" width="470" height="435" alt="necklace detail">
+  <main class="main main--product">
+    <div class="main__wrapper">
+      <h1 class="visually-hidden">Jewellery product card</h1>
+      <section class="product">
+        <section class="product__images">
+          <div class="product__wrapper">
+            <img class="product__img" src="img/gold-necklace-for-women@1x.jpg" width="100" height="125" alt="gold necklace for women">
+            <img class="product__img" src="img/pretty-gold-necklace@1x.jpg" width="100" height="125" alt="pretty gold necklace">
+            <img class="product__img" src="img/women-necklace-set@1x.jpg" width="100" height="125" alt="women necklace set">
+          </div>
+          <img class="product__img product__img--big" src="img/necklace-detail@1x.jpg" width="470" height="435" alt="necklace detail">
+        </section>
+        <section class="product__detail">
+          <h2 class="product__title title">Gold Necklace</h2>
+          <div class="product__price">$ 115</div>
+          <span class="product__desc">Description</span>
+          <span class="product__info">Additional info</span>
+          <table class="product__table">
+            <tr class="product__row">
+              <td class="product__cell">Metal type</td>
+              <td class="product__cell">Gold 585</td>
+            </tr>
+            <tr class="product__row">
+              <td class="product__cell">Stone</td>
+              <td class="product__cell">Turquoise</td>
+            </tr>
+            <tr class="product__row">
+              <td class="product__cell">Size</td>
+              <td class="product__cell">18” / 20”</td>
+            </tr>
+          </table>
+          <button class="product__add button" type="button">Add to cart</button>
+          <div class="product__guarantee">
+            <span class="product__text">14 Day Returns</span>
+            <span class="product__text">2-Year Warranty</span>
+            <span class="product__text">Free Shipping</span>
+          </div>
+        </section>
       </section>
-      <section class="product__detail">
-        <h2 class="product__title">Gold Necklace</h2>
-        <div class="product__price">$ 115</div>
-        <div class="product__desc">Description</div>
-        <span class="product__info">Additional info</span>
-        <table class="product__table">
-          <tr class="product__row">
-            <td class="product__cell">Metal type</td>
-            <td class="product__cell">Gold 585</td>
-          </tr>
-          <tr class="product__row">
-            <td class="product__cell">Stone</td>
-            <td class="product__cell">Turquoise</td>
-          </tr>
-          <tr class="product__row">
-            <td class="product__cell">Size</td>
-            <td class="product__cell">18” / 20”</td>
-          </tr>
-        </table>
+      <section class="main__slider slider">
+        <h2 class="slider__title title">You May Also Like</h2>
+        <a class="slider__link link" href="catalog.html">Shop Now</a>
+        <button class="slider__btn slider__btn--left" type="button" aria-label="show previous">
+          <svg width="30" height="11" viewBox="0 0 30 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M30 5.5L1 5.5M1 5.5L6.48649 10M1 5.5L6.48649 1" stroke="#A87B62"/>
+          </svg>
+        </button>
+        <button class="slider__btn slider__btn--right" type="button" aria-label="show next">
+          <svg width="30" height="11" viewBox="0 0 30 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 5.5H29M29 5.5L23.5135 1M29 5.5L23.5135 10" stroke="#A87B62"/>
+          </svg>
+        </button>
+        <div class="slider__wrapper">
+          <div class="slider__item goods">
+            <a href="product.html">
+              <!-- 1х: 270px; 2x: 540px -->
+              <img class="goods__img" src="img/purple-gemstone-necklace@1x.jpg" width="270" height="284" srcset="img/purple-gemstone-necklace@1x.jpg 1x, img/purple-gemstone-necklace@2x.jpg 2x" alt="Necklace with amethyst">
+            </a>
+            <div class="goods__title">Necklace with amethyst</div>
+            <div class="goods__price">$ 145</div>
+          </div>
+          <div class="slider__item goods">
+            <!-- 1х: 270px; 2x: 540px -->
+            <img class="goods__img" src="img/layered-choker-necklace@1x.jpg" width="270" height="284" srcset="img/layered-choker-necklace@1x.jpg 1x, img/layered-choker-necklace@2x.jpg 2x" alt="Layered сhoker">
+            <div class="goods__title">Layered сhoker</div>
+            <div class="goods__price">$ 115</div>
+          </div>
+          <div class="slider__item goods">
+            <!-- 1х: 270px; 2x: 540px -->
+            <img class="goods__img" src="img/dainty-gold-necklace@1x.jpg" width="270" height="284" srcset="img/dainty-gold-necklace@1x.jpg 1x, img/dainty-gold-necklace@2x.jpg 2x" alt="Gold chain">
+            <div class="goods__title">Gold chain</div>
+            <div class="goods__price">$ 215</div>
+          </div>
+          <div class="slider__item goods">
+            <!-- 1х: 270px; 2x: 540px -->
+            <img class="goods__img" src="img/galaxy-earrings@1x.jpg" width="270" height="284" srcset="img/galaxy-earrings@1x.jpg 1x, img/galaxy-earrings@2x.jpg 2x" alt="Galaxy earrings">
+            <div class="goods__title">Galaxy earrings</div>
+            <div class="goods__price">$ 95</div>
+          </div>
+        </div>
+        <div class="slider__counter">
+          <span class="slider__count slider__count--first">1</span>
+          <span class="slider__count slider__count--second">2</span>
+          <span class="slider__count slider__count--third">3</span>
+          <span class="slider__count slider__count--fourth">4</span>
+          <span class="slider__count slider__count--fifth">5</span>
+          <span class="slider__count slider__count--of">of</span>
+          <span class="slider__count slider__count--sixth">6</span>
+        </div>
       </section>
-      <button class="product__add button" type="button">Add to cart</button>
-      <div class="product__guarantee">
-        <span class="product__text">14 Day Returns</span>
-        <span class="product__text">2-Year Warranty</span>
-        <span class="product__text">Free Shipping</span>
-      </div>
-    </section>
-    <section class="main__slider slider">
-      <h2 class="slider__title">New In</h2>
-      <a class="slider_link" href="catalog.html">Shop Now</a>
-      <div class="slider__item goods">
-        <img class="goods__img" src="img/purple-gemstone-necklace@1x.jpg" alt="Necklace with amethyst" width="270" height="284">
-        <span class="goods__title">Necklace with amethyst</span>
-        <span class="goods__price">$ 145</span>
-      </div>
-      <div class="slider__item goods">
-        <img class="goods__img" src="img/layered-choker-necklace@1x.jpg" alt="Layered сhoker" width="270" height="284">
-        <span class="goods__title">Layered сhoker</span>
-        <span class="goods__price">$ 115</span>
-      </div>
-      <div class="slider__item goods">
-        <img class="goods__img" src="img/dainty-gold-necklace@1x.jpg" alt="Gold chain" width="270" height="284">
-        <span class="goods__title">Gold chain</span>
-        <span class="goods__price">$ 215</span>
-      </div>
-      <div class="slider__item goods">
-        <img class="goods__img" src="img/galaxy-earrings@1x.jpg" alt="Galaxy earrings" width="270" height="284">
-        <span class="goods__title">Galaxy earrings</span>
-        <span class="goods__price">$ 95</span>
-      </div>
-    </section>
+    </div>
+
   </main >
   <footer class="footer">
     <section class="footer__sign sign">
