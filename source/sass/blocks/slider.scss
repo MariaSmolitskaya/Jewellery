@@ -1,4 +1,5 @@
 .slider {
+  max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -29,11 +30,14 @@
 }
 
 .slider__wrapper {
-  width: 1170px;
   margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
+}
+
+.slider__item {
+  flex-shrink: 1;
 }
 
 .slider__counter {

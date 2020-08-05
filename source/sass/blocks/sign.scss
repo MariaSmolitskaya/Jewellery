@@ -5,7 +5,7 @@
   color: $base-color;
 }
 
-.sign__title {
+.sign h2 {
   font-size: 34px;
   font-family: $ff-secondary;
   font-weight: bold;
@@ -13,7 +13,7 @@
   margin: 0 0 15px;
 }
 
-.sign__text {
+.sign p {
   color: $grey;
 }
 
@@ -71,12 +71,12 @@
     margin-bottom: 45px;
   }
 
-  .sign__title {
+  .sign h2 {
     width: 213px;
     line-height: 44px;
   }
 
-  .sign__text {
+  .sign p {
     width: 226px;
   }
 }

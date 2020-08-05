@@ -1,4 +1,10 @@
-.questions__title {
+.questions {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.questions .title {
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 60px;
@@ -16,13 +22,13 @@
   border-bottom: 1px solid $decor;
 }
 
-.questions__name {
+.questions__item h3 {
   font-size: 18px;
   margin-top: 50px;
   margin-left: 38px;
 }
 
-.questions__text {
+.questions__item p {
   width: 535px;
   margin-left: 50px;
 }
@@ -47,29 +53,29 @@
 }
 
 @media (max-width: $tablet-width) {
-  .questions__name {
+  .questions__item h3 {
     font-size: 16px;
     margin-top: 22px;
     margin-left: 25px;
   }
 
-  .questions__item--material .questions__name {
+  .questions__item--material h3{
     width: 185px;
   }
 
-  .questions__item--deliver .questions__name {
+  .questions__item--deliver h3 {
     width: 142px;
   }
 
-  .questions__item--payment .questions__name {
+  .questions__item--payment h3 {
     width: 159px;
   }
 
-  .questions__item--return .questions__name {
+  .questions__item--return h3 {
     width: 206px;
   }
 
-  .questions__text {
+  .questions__item p {
     width: 206px;
     font-size: 14px;
     margin-left: 25px;

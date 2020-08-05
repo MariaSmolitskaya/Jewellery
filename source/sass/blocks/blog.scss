@@ -1,8 +1,11 @@
 .blog {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
-.blog__title {
+.blog .title {
   letter-spacing: 0.03em;
 }
 

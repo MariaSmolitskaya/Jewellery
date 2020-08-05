@@ -45,26 +45,26 @@
   width: 488px;
 }
 
-.tagline__title {
+.tagline h1 {
   margin: 0;
   font-size: 45px;
   line-height: 58px;
   letter-spacing: 0.03em;
 }
 
-.tagline--catalog .tagline__title {
+.tagline--catalog h1 {
   font-size: 34px;
   line-height: 44px;
 }
 
-.tagline__text {
+.tagline p {
   font-size: 38px;
   font-style: italic;
   font-weight: normal;
   line-height: 49px;
 }
 
-.tagline--catalog .tagline__text {
+.tagline--catalog p {
   font-size: 22px;
   line-height: 29px;
 }
@@ -104,12 +104,12 @@
     width: 248px;
   }
 
-  .tagline--catalog .tagline__title {
+  .tagline--catalog h1 {
     white-space: nowrap;
     letter-spacing: normal;
   }
 
-  .tagline--catalog .tagline__text {
+  .tagline--catalog p {
     line-height: 22px;
   }
 

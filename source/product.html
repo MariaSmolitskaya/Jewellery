@@ -77,11 +77,19 @@
       <section class="product">
         <section class="product__images">
           <div class="product__wrapper">
-            <img class="product__img" src="img/gold-necklace-for-women@1x.jpg" width="100" height="125" alt="gold necklace for women">
-            <img class="product__img" src="img/pretty-gold-necklace@1x.jpg" width="100" height="125" alt="pretty gold necklace">
-            <img class="product__img" src="img/women-necklace-set@1x.jpg" width="100" height="125" alt="women necklace set">
+            <div class="product__img">
+              <img src="img/gold-necklace-for-women@1x.jpg" width="100" height="125" alt="gold necklace for women">
+            </div>
+            <div class="product__img">
+              <img src="img/pretty-gold-necklace@1x.jpg" width="100" height="125" alt="pretty gold necklace">
+            </div>
+            <div class="product__img">
+              <img src="img/women-necklace-set@1x.jpg" width="100" height="125" alt="women necklace set">
+            </div>
           </div>
-          <img class="product__img product__img--big" src="img/necklace-detail@1x.jpg" width="470" height="435" alt="necklace detail">
+          <div class="product__img product__img--big">
+            <img src="img/necklace-detail@1x.jpg" width="470" height="435" alt="necklace detail">
+          </div>
         </section>
         <section class="product__detail">
           <h2 class="product__title title">Gold Necklace</h2>
@@ -126,27 +134,36 @@
         <div class="slider__wrapper">
           <div class="slider__item goods">
             <a href="product.html">
+              <div class="goods__img">
+
+              </div>
               <!-- 1х: 270px; 2x: 540px -->
-              <img class="goods__img" src="img/purple-gemstone-necklace@1x.jpg" width="270" height="284" srcset="img/purple-gemstone-necklace@1x.jpg 1x, img/purple-gemstone-necklace@2x.jpg 2x" alt="Necklace with amethyst">
+              <img src="img/purple-gemstone-necklace@1x.jpg" width="270" height="284" srcset="img/purple-gemstone-necklace@1x.jpg 1x, img/purple-gemstone-necklace@2x.jpg 2x" alt="Necklace with amethyst">
             </a>
             <div class="goods__title">Necklace with amethyst</div>
             <div class="goods__price">$ 145</div>
           </div>
           <div class="slider__item goods">
-            <!-- 1х: 270px; 2x: 540px -->
-            <img class="goods__img" src="img/layered-choker-necklace@1x.jpg" width="270" height="284" srcset="img/layered-choker-necklace@1x.jpg 1x, img/layered-choker-necklace@2x.jpg 2x" alt="Layered сhoker">
+            <div class="goods__img">
+              <!-- 1х: 270px; 2x: 540px -->
+              <img src="img/layered-choker-necklace@1x.jpg" width="270" height="284" srcset="img/layered-choker-necklace@1x.jpg 1x, img/layered-choker-necklace@2x.jpg 2x" alt="Layered сhoker">
+            </div>
             <div class="goods__title">Layered сhoker</div>
             <div class="goods__price">$ 115</div>
           </div>
           <div class="slider__item goods">
-            <!-- 1х: 270px; 2x: 540px -->
-            <img class="goods__img" src="img/dainty-gold-necklace@1x.jpg" width="270" height="284" srcset="img/dainty-gold-necklace@1x.jpg 1x, img/dainty-gold-necklace@2x.jpg 2x" alt="Gold chain">
+            <div class="goods__img">
+              <!-- 1х: 270px; 2x: 540px -->
+              <img src="img/dainty-gold-necklace@1x.jpg" width="270" height="284" srcset="img/dainty-gold-necklace@1x.jpg 1x, img/dainty-gold-necklace@2x.jpg 2x" alt="Gold chain">
+            </div>
             <div class="goods__title">Gold chain</div>
             <div class="goods__price">$ 215</div>
           </div>
           <div class="slider__item goods">
-            <!-- 1х: 270px; 2x: 540px -->
-            <img class="goods__img" src="img/galaxy-earrings@1x.jpg" width="270" height="284" srcset="img/galaxy-earrings@1x.jpg 1x, img/galaxy-earrings@2x.jpg 2x" alt="Galaxy earrings">
+            <div class="goods__img">
+              <!-- 1х: 270px; 2x: 540px -->
+              <img src="img/galaxy-earrings@1x.jpg" width="270" height="284" srcset="img/galaxy-earrings@1x.jpg 1x, img/galaxy-earrings@2x.jpg 2x" alt="Galaxy earrings">
+            </div>
             <div class="goods__title">Galaxy earrings</div>
             <div class="goods__price">$ 95</div>
           </div>
@@ -166,8 +183,8 @@
   </main >
   <footer class="footer">
     <section class="footer__sign sign">
-      <h2 class="sign__title">The good stuff in your inbox</h2>
-      <span class="sign__text">News and updates from CH. No spam, we promise.</span>
+      <h2>The good stuff in your inbox</h2>
+      <p>News and updates from CH. No spam, we promise.</p>
       <form class="sign__form " method="post">
         <label class="visually-hidden" for="sign-input">Email</label>
         <input class="sign__input" type="email" placeholder="Your E-mail" id="sign-input">
@@ -262,7 +279,9 @@
   <div class="modal-basket__title">The item was added to your cart</div>
   <a class="modal-basket__close">X</a>
   <div class="modal-basket__item">
-    <img class="modal-basket__img" src="img/necklace-detail@1x.jpg" width="84" height="79" alt="necklace detail">
+    <div class="modal-basket__img">
+      <img src="img/necklace-detail@1x.jpg" width="84" height="79" alt="necklace detail">
+    </div>
     <div class="modal-basket__name">Gold Necklace</div>
     <div class="modal-basket__price">$ 115</div>
     <div class="modal-basket__counter">
