@@ -55,6 +55,10 @@
   height: 630px;
 }
 
+.article img {
+  height: inherit;
+}
+
 .article--big .article__desc {
   position: absolute;
   bottom: 0;

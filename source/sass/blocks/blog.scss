@@ -1,11 +1,8 @@
 .blog {
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
 }
 
-.blog .title {
+.blog__title {
   letter-spacing: 0.03em;
 }
 
@@ -14,9 +11,16 @@
 }
 
 .blog__item {
+  width: 48%;
   margin-bottom: 30px;
 }
 
 .blog__item:last-child {
   margin-bottom: 0;
+}
+
+@media (max-width: $desktop-width) {
+  .blog__item {
+    width: 100%;
+  }
 }

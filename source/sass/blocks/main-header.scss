@@ -44,7 +44,7 @@
 }
 
 .main-header__button-burger,
-.main-header__icon-cart {
+.main-header__link-cart {
   display: none;
 }
 
@@ -82,7 +82,7 @@
     display: none;
   }
 
-  .main-header__logo-img {
+  .main-header__logo-icon {
     display: none;
   }
 
@@ -92,7 +92,7 @@
   }
 
   .main-header__button-burger,
-  .main-header__icon-cart {
+  .main-header__link-cart {
     display: block;
     position: absolute;
     top: 53px;
@@ -113,7 +113,7 @@
     height: 16px;
   }
 
-  .main-header__icon-cart {
+  .main-header__link-cart {
     right: 45px;
 
     &:hover {

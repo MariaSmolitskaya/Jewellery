@@ -1,7 +1,4 @@
 .insta-tag {
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
 }
 
@@ -23,43 +20,47 @@
 }
 
 .insta-tag__photo--01 {
-  max-width: 230px;
-  max-height: 230px;
+  width: 19.8%;
+  max-height: 230px
 }
 
 .insta-tag__photo--02 {
-  max-width: 230px;
+  width: 19.8%;
   max-height: 154px;
 }
 
 .insta-tag__photo--03 {
-  max-width: 400px;
+  width: 34%;
   max-height: 414px;
 }
 
 .insta-tag__photo--04 {
-  max-width: 232px;
+  width: 19.8%;
   max-height: 193px;
 }
 
 .insta-tag__photo--05 {
-  max-width: 218px;
+  width: 18.6%;
   max-height: 191px;
 }
 
 .insta-tag__photo--06 {
-  max-width: 218px;
+  width: 18.6%;
   max-height: 218px;
 }
 
 .insta-tag__photo--07 {
-  max-width: 232px;
+  width: 19.8%;
   max-height: 166px;
 }
 
 @media (max-width: $desktop-width) {
   .insta-tag__photos {
     height: 240px;
+  }
+
+  .insta-tag img {
+    height: inherit;
   }
 
   .insta-tag__photo--01 {
@@ -129,7 +130,7 @@
     order: 4;
   }
 
-  .insta-tag__photo--03 .insta-tag__img {
+  .insta-tag__photo--03 img {
     height: 100%;
     object-fit: cover;
   }

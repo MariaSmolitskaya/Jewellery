@@ -1,3 +1,39 @@
-h5 {
-  color: red;
+.modal-basket {
+  width: 500px;
+  height: 439px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  padding: 55px 35px;
+  box-sizing: border-box;
+
+  background-color: $base-color;
+  box-shadow: 0 4px 32px rgba(121, 121, 121, 0.24);
+
+  position: relative;
+}
+
+.modal-basket p{
+  font-family: $ff-secondary;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 34px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.modal-basket__close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.modal-basket__img {
+  width: 84px;
+  height: 79px;
 }

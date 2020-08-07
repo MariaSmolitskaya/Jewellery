@@ -11,8 +11,9 @@
   margin-right: 30px;
 }
 
-.product__img {
-  display: block;
+.product__wrapper .product__img {
+  width: 100px;
+  height: 125px;
   margin-bottom: 30px;
 }
 
@@ -81,6 +82,7 @@
   }
 
   .product__wrapper {
+    margin-right: 0;
     display: flex;
   }
 
@@ -88,6 +90,10 @@
     width: 97px;
     height: 129px;
     margin-right: 14px;
+  }
+
+  .product__wrapper .product__img:last-child {
+    margin-right: 0;
   }
 
   .product__detail {

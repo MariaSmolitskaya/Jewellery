@@ -1,9 +1,12 @@
 .slider {
-  max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   position: relative;
+}
+
+.slider__item {
+  margin-right: 3.4%;
 }
 
 .slider__title {
@@ -34,10 +37,6 @@
   margin-left: auto;
   margin-right: auto;
   display: flex;
-}
-
-.slider__item {
-  flex-shrink: 1;
 }
 
 .slider__counter {
