@@ -319,21 +319,31 @@
   </div>
 </div>
 
-<div class="modal-login visually-hidden">
+<div class="modal-login">
   <div class="modal-login__header">
-    <button class="modal-login__close" type="button" aria-label="close">X</button>
+    <button class="modal-login__close" type="button" aria-label="close">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7 5.44469L12.4447 0L14 1.55531L8.55531 7L14 12.4447L12.4447 14L7 8.55531L1.55531 14L0 12.4447L5.44469 7L0 1.55531L1.55531 0L7 5.44469Z" fill="#1D1613"/>
+      </svg>
+    </button>
   </div>
-  <form class="modal-login__form" method="post">
-    <div class="modal-login__title">Log In</div>
-    <label class="visually-hidden" for="login">Your E-mail</label>
-    <input class="modal-login__input" type="email" value="Your E-mail" id="login" required>
-    <label class="visually-hidden" for="password">Password</label>
-    <input class="modal-login__input" type="password" value="Password" id="password" required>
-    <a class="modal-login__forgot-link" href="#">Forgot your password?</a>
-    <button class="modal-login__button button" type="submit" aria-label="log in">Log In</button>
-  </form>
-  <span class="modal-login__text">Don’t have an account?</span>
-  <a class="modal-login__sign-link" href="#">Sign up</a>
+  <div class="modal-login__wrapper">
+    <form class="modal-login__form" method="post">
+      <div class="modal-login__title">Log In</div>
+      <label class="visually-hidden" for="login">Your E-mail</label>
+      <input class="modal-login__input modal-login__input--email" type="email" value="Your E-mail" id="login" required>
+      <div class="modal-login__pass-wrapper">
+        <label class="visually-hidden" for="password">Password</label>
+        <input class="modal-login__input modal-login__input--pass" type="password" value="Password" id="password" required>
+        <a class="modal-login__forgot-link" href="#">Forgot your password?</a>
+      </div>
+      <button class="modal-login__button button" type="submit" aria-label="log in">Log In</button>
+    </form>
+    <div class="modal-login__sign">
+      <span class="modal-login__text">Don’t have an account?</span>
+      <a class="modal-login__sign-link" href="#">Sign up</a>
+    </div>
+  </div>
 </div>
 </body>
 </html>
