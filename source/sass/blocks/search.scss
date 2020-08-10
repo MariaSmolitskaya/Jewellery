@@ -24,6 +24,7 @@
   .search {
     position: absolute;
     top: 136px;
+    width: 90%;
     max-width: 884px;
     margin-left: 45px;
     margin-right: 45px;
@@ -58,11 +59,5 @@
     &:hover::placeholder {
       color: rgba($beige, 0.5);
     }
-  }
-}
-
-@media (max-width: $tablet-width) {
-  .search__input {
-    width: calc(100% - 30px);
   }
 }
