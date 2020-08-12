@@ -53,3 +53,8 @@ img {
   flex-direction: column;
   min-height: 100%;
 }
+
+.body--lock {
+  overflow-y: scroll;
+  position: fixed;
+}
