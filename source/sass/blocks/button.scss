@@ -5,11 +5,11 @@
   display: block;
   font-family: $ff-primary;
   font-size: 16px;
-  background-color: $decor;
+  background-color: $sandybrown;
   color: $base-color;
   cursor: pointer;
 
   &:hover {
-    background-color: rgba($decor, 0.8);
+    background-color: rgba($sandybrown, 0.8);
   }
 }

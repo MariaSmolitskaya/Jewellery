@@ -16,7 +16,7 @@
         <path class="main-header__icon-burger" d="M0 1H25M0 9H25M0 17H25" stroke="#1D1613" stroke-width="2"/>
       </svg>
     </button>
-    <form class="search" method="post">
+    <form class="search" method="post" action="">
       <button class="search__button" type="submit" aria-label="site search">
         <svg class="search__icon" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path class="search__icon" d="M11.0482 10.0737L14 13.0248L13.0248 14L10.0737 11.0482C8.9757 11.9285 7.60993 12.4072 6.20262 12.4052C2.77877 12.4052 0 9.62646 0 6.20262C0 2.77877 2.77877 0 6.20262 0C9.62646 0 12.4052 2.77877 12.4052 6.20262C12.4072 7.60993 11.9285 8.9757 11.0482 10.0737ZM9.66575 9.56237C10.5404 8.66291 11.0289 7.45722 11.0269 6.20262C11.0269 3.53687 8.86768 1.37836 6.20262 1.37836C3.53687 1.37836 1.37836 3.53687 1.37836 6.20262C1.37836 8.86768 3.53687 11.0269 6.20262 11.0269C7.45722 11.0289 8.66291 10.5404 9.56237 9.66575L9.66575 9.56237Z" fill="black"/>
@@ -83,7 +83,7 @@
     </div>
 
     <div class="main__wrapper main__wrapper--catalog">
-      <form class="filters">
+      <form class="filters" action="">
         <div class="filters__box">
           <h2>Product</h2>
           <button class="filters__btn" type="button">
@@ -298,7 +298,7 @@
     <section class="footer__sign sign">
       <h2>The good stuff in your inbox</h2>
       <p>News and updates from CH. No spam, we promise.</p>
-      <form class="sign__form " method="post">
+      <form class="sign__form " method="post" action="">
         <label class="visually-hidden" for="sign-input">Email</label>
         <input class="sign__input" type="email" placeholder="Your E-mail" id="sign-input">
         <button class="sign__submit" type="submit" aria-label="submit and subscribe">
@@ -386,7 +386,7 @@
   </footer>
 </div>
 
-<div class="modal-login">
+<div class="modal-login modal">
   <div class="modal-login__header">
     <button class="modal-login__close" type="button" aria-label="close">
       <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -395,7 +395,7 @@
     </button>
   </div>
   <div class="modal-login__wrapper">
-    <form class="modal-login__form" method="post">
+    <form class="modal-login__form" method="post" action="">
       <div class="modal-login__title">Log In</div>
       <label class="visually-hidden" for="login">Your E-mail</label>
       <input class="modal-login__input modal-login__input--email" type="email" value="Your E-mail" id="login" required>

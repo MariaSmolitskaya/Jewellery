@@ -5,15 +5,15 @@
 }
 
 .questions__item {
-  border-left: 1px solid $decor;
-  border-top: 1px solid $decor;
-  border-right: 1px solid $decor;
+  border-left: 1px solid $sandybrown;
+  border-top: 1px solid $sandybrown;
+  border-right: 1px solid $sandybrown;
   padding-bottom: 50px;
   position: relative;
 }
 
 .questions__item:last-child {
-  border-bottom: 1px solid $decor;
+  border-bottom: 1px solid $sandybrown;
 }
 
 .questions__item h3 {

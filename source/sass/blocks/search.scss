@@ -5,7 +5,7 @@
 }
 
 .search__button:hover .search__icon {
-  fill: $decor;
+  fill: $sandybrown;
   cursor: pointer;
 }
 
@@ -16,7 +16,7 @@
   line-height: 21px;
 
   &:hover::placeholder {
-    color: $decor;
+    color: $sandybrown;
   }
 }
 

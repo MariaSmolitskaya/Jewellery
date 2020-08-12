@@ -36,7 +36,7 @@
 
 .main-header__login:hover,
 .main-header__cart:hover {
-  color: $decor;
+  color: $sandybrown;
 }
 
 .main-header__cart {
@@ -58,7 +58,7 @@
 
 @media (max-width: $desktop-width) {
   .main-header {
-    background-color: $decor;
+    background-color: $sandybrown;
   }
 
   .main-header__top {

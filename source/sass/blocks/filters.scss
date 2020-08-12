@@ -7,15 +7,15 @@
   padding-left: 25px;
   padding-top: 28px;
   padding-bottom: 30px;
-  border-left: 1px solid $decor;
-  border-top: 1px solid $decor;
-  border-right: 1px solid $decor;
+  border-left: 1px solid $sandybrown;
+  border-top: 1px solid $sandybrown;
+  border-right: 1px solid $sandybrown;
 
   position: relative;
 }
 
 .filters__box:last-of-type {
-  border-bottom: 1px solid $decor;
+  border-bottom: 1px solid $sandybrown;
 }
 
 .filters h2 {
@@ -59,15 +59,15 @@
   height: 15px;
   z-index: 1;
   background-color: $base-color;
-  border: 1px solid $decor;
+  border: 1px solid $sandybrown;
 }
 
 .filters__checkbox:checked::after {
-  background-color: $decor;
+  background-color: $sandybrown;
 }
 
 .filters__checkbox:hover::after {
-  border-color: rgba($decor, 0.5);
+  border-color: rgba($sandybrown, 0.5);
 }
 
 .filters__label {
@@ -94,11 +94,11 @@
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: $decor;
+  background-color: $sandybrown;
   cursor: pointer;
 
   &:hover {
-    background-color: lighten($decor, 20%);
+    background-color: lighten($sandybrown, 20%);
   }
 }
 
@@ -146,7 +146,7 @@
     width: 362px;
     height: 68px;
     box-sizing: border-box;
-    border: 1px solid $decor;
+    border: 1px solid $sandybrown;
   }
 }
 

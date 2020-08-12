@@ -30,7 +30,7 @@
   }
 
   &:hover::placeholder {
-    color: $decor;
+    color: $sandybrown;
   }
 }
 
@@ -46,11 +46,11 @@
   cursor: pointer;
 
   &:hover {
-    color: $decor;
+    color: $sandybrown;
   }
 
   &:hover .sign__icon {
-    stroke: $decor;
+    stroke: $sandybrown;
   }
 }
 
