@@ -42,29 +42,19 @@
 
 @media (max-width: $desktop-width) {
   .catalog {
-    width: 678px;
+    width: 100%;
   }
 
-  .catalog__goods .goods__img {
-    width: 206px;
-    height: 208px;
+  .catalog__goods {
+    width: 30.4%;
   }
 }
 
 @media (max-width: $tablet-width) {
-  .catalog {
-    width: 290px;
-  }
-
   .catalog__goods {
     width: 44.8%;
     margin-right: 10.4%;
     margin-bottom: 30px;
-  }
-
-  .catalog__goods .goods__img {
-    width: 130px;
-    height: 136px;
   }
 
   .catalog__goods:nth-child(3n) {
