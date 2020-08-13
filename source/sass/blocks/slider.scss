@@ -63,11 +63,11 @@
 
 @media (max-width: $desktop-width) {
   .slider__wrapper {
-    width: 678px;
     overflow: hidden;
   }
 
   .slider__item {
+    width: 47.7%;
     flex-shrink: 0;
   }
 
@@ -79,8 +79,9 @@
 }
 
 @media (max-width: $tablet-width) {
-  .slider {
-    overflow: hidden;
+  .slider__item {
+    width: 45%;
+    margin-right: 10%;
   }
 
   .slider__wrapper {
