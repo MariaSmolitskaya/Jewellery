@@ -67,6 +67,7 @@
 
 @media (max-width: $desktop-width) {
   .article__desc {
+    flex-grow: 1;
     width: 339px;
     height: 300px;
     padding-left: 88px;
@@ -74,6 +75,7 @@
   }
 
   .article__img {
+    flex-grow: 1;
     width: 339px;
     height: 300px;
   }
