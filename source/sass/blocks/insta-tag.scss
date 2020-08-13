@@ -16,7 +16,11 @@
 }
 
 .insta-tag__photo {
-  flex-shrink: 1;
+  flex-grow: 1;
+}
+
+.insta-tag img {
+  height: fit-content;
 }
 
 .insta-tag__photo--01 {
@@ -59,42 +63,39 @@
     height: 240px;
   }
 
+  .insta-tag__photo {
+    flex-grow: unset;
+  }
+
   .insta-tag img {
     height: inherit;
   }
 
   .insta-tag__photo--01 {
-    width: 133px;
     height: 133px;
   }
 
   .insta-tag__photo--02 {
-    width: 133px;
     height: 89px;
   }
 
   .insta-tag__photo--03 {
-    width: 231px;
     height: 240px;
   }
 
   .insta-tag__photo--04 {
-    width: 134px;
     height: 111px;
   }
 
   .insta-tag__photo--05 {
-    width: 126px;
     height: 111px;
   }
 
   .insta-tag__photo--06 {
-    width: 126px;
     height: 126px;
   }
 
   .insta-tag__photo--07 {
-    width: 134px;
     height: 96px;
   }
 }
@@ -107,25 +108,25 @@
   }
 
   .insta-tag__photo--01 {
-    width: 130px;
+    width: 44.8%;
     height: 130px;
     order: 1;
   }
 
   .insta-tag__photo--02 {
-    width: 130px;
+    width: 44.8%;
     height: 87px;
     order: 2;
   }
 
   .insta-tag__photo--05 {
-    width: 130px;
+    width: 44.8%;
     height: 115px;
     order: 3;
   }
 
   .insta-tag__photo--03 {
-    width: 145px;
+    width: 50%;
     height: 226px;
     order: 4;
   }
@@ -136,7 +137,7 @@
   }
 
   .insta-tag__photo--04 {
-    width: 145px;
+    width: 50%;
     height: 121px;
     order: 5;
   }
