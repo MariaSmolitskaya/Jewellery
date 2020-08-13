@@ -103,12 +103,12 @@
 
   .article__img,
   .article--big .article__img {
-    width: 290px;
+    width: inherit;
     height: 256px;
   }
 
   .article__desc {
-    width: 290px;
+    width: inherit;
     height: 256px;
     padding-top: 50px;
     padding-left: 63px;

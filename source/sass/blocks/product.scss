@@ -108,7 +108,7 @@
   }
 
   .product__detail {
-    width: 319px;
+    width: 47.1%;
     margin-right: 0;
     margin-left: 40px;
   }
@@ -127,6 +127,10 @@
     flex-direction: column;
   }
 
+  .product__images {
+    width: 100%;
+  }
+
   .product__wrapper {
     display: none;
   }
@@ -141,7 +145,7 @@
   }
 
   .product__detail {
-    width: 290px;
+    width: 100%;
     margin-left: 0;
   }
 }
