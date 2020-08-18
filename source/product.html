@@ -101,22 +101,31 @@
         <section class="product__detail">
           <h2 class="title">Gold Necklace</h2>
           <div class="product__price">$ 115</div>
-          <span class="product__desc">Description</span>
-          <span class="product__info">Additional info</span>
-          <table class="product__table">
-            <tr class="product__row">
-              <td class="product__cell">Metal type</td>
-              <td class="product__cell">Gold 585</td>
-            </tr>
-            <tr class="product__row">
-              <td class="product__cell">Stone</td>
-              <td class="product__cell">Turquoise</td>
-            </tr>
-            <tr class="product__row">
-              <td class="product__cell">Size</td>
-              <td class="product__cell">18” / 20”</td>
-            </tr>
-          </table>
+          <div class="product__tabs">
+            <input class="product__tab-1" type="radio" name="tab-btn" id="tab-1" value="" checked>
+            <label class="product__tab-label" for="tab-1">Description</label>
+            <input class="product__tab-2" type="radio" name="tab-btn" id="tab-2" value="">
+            <label class="product__tab-label" for="tab-2">Additional info</label>
+            <div class="product__desc-content">
+              Women necklace set
+            </div>
+            <div class="product__info-content">
+              <table class="product__table">
+                <tr class="product__row">
+                  <td class="product__cell">Metal type</td>
+                  <td class="product__cell">Gold 585</td>
+                </tr>
+                <tr class="product__row">
+                  <td class="product__cell">Stone</td>
+                  <td class="product__cell">Turquoise</td>
+                </tr>
+                <tr class="product__row">
+                  <td class="product__cell">Size</td>
+                  <td class="product__cell">18” / 20”</td>
+                </tr>
+              </table>
+            </div>
+          </div>
           <button class="product__add button" type="button" aria-label="add to cart">Add to cart</button>
           <div class="product__guarantee">
             <span class="product__text">14 Day Returns</span>

@@ -33,9 +33,36 @@
   margin-bottom: 50px;
 }
 
-.product__desc {
+.product__tab-label {
+  cursor: pointer;
   color: $grey;
+}
+
+.product__tab-label:first-of-type {
   margin-right: 35px;
+}
+
+.product__tabs > input[type="radio"] {
+  display: none;
+}
+
+.product__tabs > .product__info-content,
+.product__tabs > .product__desc-content {
+  display: none;
+}
+
+.product__tab-1:checked ~ .product__desc-content,
+.product__tab-2:checked ~ .product__info-content {
+  display: block;
+}
+
+.product__tab-1:checked + .product__tab-label,
+.product__tab-2:checked + .product__tab-label {
+  color: $black;
+}
+
+.product__desc-content {
+  margin-top: 30px;
 }
 
 .product__table {
