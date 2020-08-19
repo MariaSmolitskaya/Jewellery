@@ -61,6 +61,11 @@
   color: $black;
 }
 
+.product__tab-1:hover + .product__tab-label,
+.product__tab-2:hover + .product__tab-label {
+  opacity: 0.5;
+}
+
 .product__desc-content {
   margin-top: 30px;
 }
@@ -78,6 +83,7 @@
 }
 
 .product__cell:nth-child(2n) {
+  font-weight: normal;
   text-align: end;
 }
 

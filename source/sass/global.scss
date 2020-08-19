@@ -40,6 +40,7 @@ body {
 
   font-family: $ff-primary;
   font-size: 16px;
+  font-weight: 500;
   line-height: 21px;
   color: $black;
 
@@ -60,9 +61,4 @@ img {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-}
-
-.body--lock {
-  overflow-y: scroll;
-  position: fixed;
 }

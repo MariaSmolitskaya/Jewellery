@@ -6,7 +6,6 @@
   <title>Jewellery</title>
   <link rel="preload" href="fonts/poppins-medium.woff2" as="font" type="font/woff2">
   <link rel="stylesheet" href="css/style.min.css">
-  <script src="js/main.js" type="text/javascript" async></script>
 </head>
 <body>
 <header class="main-header">
@@ -35,7 +34,7 @@
         <path class="main-header__icon-cart" d="M14 5C14 6.06087 13.5786 7.07828 12.8284 7.82843C12.0783 8.57857 11.0609 9 10 9C8.93913 9 7.92172 8.57857 7.17157 7.82843C6.42143 7.07828 6 6.06087 6 5M1 1H19V17H1V1Z" stroke="#1D1613" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
     </a>
-    <a class="main-header__login" href="#">Login</a>
+    <a class="main-header__login" href="#modal-login">Login</a>
     <a class="main-header__cart" href="#">Cart 0</a>
   </div>
   <div class="main-header__bottom main-header__bottom--index menu">
@@ -103,7 +102,7 @@
                 <img src="img/purple-gemstone-necklace@1x.jpg" width="270" height="284" srcset="img/purple-gemstone-necklace@1x.jpg 1x, img/purple-gemstone-necklace@2x.jpg 2x" alt="Necklace with amethyst">
               </div>
             </a>
-            <div class="goods__title">Necklace with amethyst</div>
+            <h3>Necklace with amethyst</h3>
             <div class="goods__price">$ 145</div>
           </div>
           <div class="slider__item goods">
@@ -111,7 +110,7 @@
               <!-- 1х: 270px; 2x: 540px -->
               <img src="img/layered-choker-necklace@1x.jpg" width="270" height="284" srcset="img/layered-choker-necklace@1x.jpg 1x, img/layered-choker-necklace@2x.jpg 2x" alt="Layered сhoker">
             </div>
-            <div class="goods__title">Layered сhoker</div>
+            <h3>Layered сhoker</h3>
             <div class="goods__price">$ 115</div>
           </div>
           <div class="slider__item goods">
@@ -119,7 +118,7 @@
               <!-- 1х: 270px; 2x: 540px -->
               <img src="img/dainty-gold-necklace@1x.jpg" width="270" height="284" srcset="img/dainty-gold-necklace@1x.jpg 1x, img/dainty-gold-necklace@2x.jpg 2x" alt="Gold chain">
             </div>
-            <div class="goods__title">Gold chain</div>
+            <h3>Gold chain</h3>
             <div class="goods__price">$ 215</div>
           </div>
           <div class="slider__item goods">
@@ -127,7 +126,7 @@
               <!-- 1х: 270px; 2x: 540px -->
               <img src="img/galaxy-earrings@1x.jpg" width="270" height="284" srcset="img/galaxy-earrings@1x.jpg 1x, img/galaxy-earrings@2x.jpg 2x" alt="Galaxy earrings">
             </div>
-            <div class="goods__title">Galaxy earrings</div>
+            <h3>Galaxy earrings</h3>
             <div class="goods__price">$ 95</div>
           </div>
         </div>
@@ -350,14 +349,8 @@
   </footer>
 </div>
 
-<div class="modal-login modal">
-  <div class="modal-login__header">
-    <button class="modal-login__close" type="button" aria-label="close">
-      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M7 5.44469L12.4447 0L14 1.55531L8.55531 7L14 12.4447L12.4447 14L7 8.55531L1.55531 14L0 12.4447L5.44469 7L0 1.55531L1.55531 0L7 5.44469Z" fill="#1D1613"/>
-      </svg>
-    </button>
-  </div>
+<div class="modal-login modal" id="modal-login">
+  <div class="modal-login__header"></div>
   <div class="modal-login__wrapper">
     <form class="modal-login__form" method="post" action="">
       <div class="modal-login__title">Log In</div>
@@ -376,5 +369,8 @@
     </div>
   </div>
 </div>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="js/modaal.js"></script>
+<script src="js/main.js" type="text/javascript" async></script>
 </body>
 </html>

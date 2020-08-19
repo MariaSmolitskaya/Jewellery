@@ -27,6 +27,7 @@
 
   &::placeholder {
     font-family: $ff-primary;
+    font-weight: 500;
   }
 
   &:hover::placeholder {
