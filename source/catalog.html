@@ -6,7 +6,6 @@
   <title>Jewellery</title>
   <link rel="preload" href="fonts/poppins-medium.woff2" as="font" type="font/woff2">
   <link rel="stylesheet" href="css/style.min.css">
-  <script src="js/main.js" type="text/javascript" async></script>
 </head>
 <body>
 <header class="main-header">
@@ -36,7 +35,7 @@
         <path class="main-header__icon-cart" d="M14 5C14 6.06087 13.5786 7.07828 12.8284 7.82843C12.0783 8.57857 11.0609 9 10 9C8.93913 9 7.92172 8.57857 7.17157 7.82843C6.42143 7.07828 6 6.06087 6 5M1 1H19V17H1V1Z" stroke="#1D1613" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
     </a>
-    <a class="main-header__login" href="#">Login</a>
+    <a class="main-header__login" href="#modal-login">Login</a>
     <a class="main-header__cart" href="#">Cart 0</a>
   </div>
   <div class="main-header__bottom menu">
@@ -386,7 +385,7 @@
   </footer>
 </div>
 
-<div class="modal-login modal">
+<div class="modal-login modal" id="modal-login">
   <div class="modal-login__header">
     <button class="modal-login__close" type="button" aria-label="close">
       <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -412,5 +411,8 @@
     </div>
   </div>
 </div>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="js/modaal.js"></script>
+<script src="js/main.js" type="text/javascript" async></script>
 </body>
 </html>

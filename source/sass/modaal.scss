@@ -127,10 +127,9 @@ $modaal-grey: #afb7bc;
 	}
 }
 .modaal-container {
+  width: 100%;
 	position: relative;
 	display: inline-block;
-  width: 430px;
-  height: 586px;
 	margin: auto;
 	text-align: left;
 	color: $modaal-main-text;
