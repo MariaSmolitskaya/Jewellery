@@ -1,9 +1,7 @@
-.modal-basket {
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 30px;
+.modal-basket__wrapper {
+  width: 500px;
+  height: 439px;
   padding: 55px 35px;
-  box-sizing: border-box;
 
   background-color: $base-color;
   box-shadow: 0 4px 32px rgba(121, 121, 121, 0.24);
@@ -11,7 +9,7 @@
   position: relative;
 }
 
-.modal-basket p {
+.modal-basket__wrapper p {
   font-family: $ff-secondary;
   font-size: 26px;
   font-weight: bold;
@@ -132,7 +130,7 @@
 }
 
 @media (max-width: $desktop-width) {
-  .modal-basket {
+  .modal-basket__wrapper {
     width: 502px;
     padding-left: 30px;
     padding-right: 30px;
@@ -140,13 +138,13 @@
 }
 
 @media (max-width: $tablet-width) {
-  .modal-basket {
+  .modal-basket__wrapper {
     width: 290px;
     height: 519px;
     padding: 45px 15px;
   }
 
-  .modal-basket p {
+  .modal-basket__wrapper p {
     font-size: 24px;
     line-height: 29px;
   }
@@ -156,7 +154,7 @@
     height: 63px;
   }
 
-  .modal-basket img {
+  .modal-basket__wrapper img {
     height: 63px;
     object-fit: contain;
   }

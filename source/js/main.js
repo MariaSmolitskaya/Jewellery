@@ -1,14 +1,8 @@
 'use strict';
-
 $(document).ready(function(){
-  $('.main-header__login').modaal({
-    width: 430,
-    height: 586,
-  });
+  $('.main-header__login').modaal();
   $('.product__add').modaal({
-    content_source: '#modal-basket',
-    width: 500,
-    height: 439,
+    content_source: '#modal-basket'
   });
   $('.slider__wrapper').slick({
     infinite: true,
@@ -17,7 +11,6 @@ $(document).ready(function(){
     prevArrow: '.slider__btn--left',
     nextArrow: '.slider__btn--right',
     dots: true,
-    variableWidth: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -30,4 +23,3 @@ $(document).ready(function(){
     ]
   });
 });
-

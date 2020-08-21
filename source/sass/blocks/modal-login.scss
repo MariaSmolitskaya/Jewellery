@@ -1,4 +1,6 @@
-.modal-login {
+.modal-login__main-wrapper {
+  width: 430px;
+  height: 588px;
   background-color: $beige;
   box-shadow: 0 5px 32px rgba(226, 221, 215, 0.24);
 }
@@ -107,9 +109,8 @@
 }
 
 @media (max-width: $desktop-width) {
-  .modal-login {
+  .modal-login__main-wrapper {
     width: 442px;
-    margin-left: -221px;
   }
 
   .modal-login__wrapper {
@@ -119,10 +120,9 @@
 }
 
 @media (max-width: $tablet-width) {
-  .modal-login {
+  .modal-login__main-wrapper {
     width: 270px;
     height: 470px;
-    margin-left: -135px;
   }
 
   .modal-login__header {

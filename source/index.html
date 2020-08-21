@@ -349,22 +349,24 @@
 </div>
 
 <div class="modal-login modal" id="modal-login">
-  <div class="modal-login__header"></div>
-  <div class="modal-login__wrapper">
-    <form class="modal-login__form" method="post" action="">
-      <div class="modal-login__title">Log In</div>
-      <label class="visually-hidden" for="login">Your E-mail</label>
-      <input class="modal-login__input modal-login__input--email" type="email" value="Your E-mail" id="login" required>
-      <div class="modal-login__pass-wrapper">
-        <label class="visually-hidden" for="password">Password</label>
-        <input class="modal-login__input modal-login__input--pass" type="password" value="Password" id="password" required>
-        <a class="modal-login__forgot-link" href="#">Forgot your password?</a>
+  <div class="modal-login__main-wrapper">
+    <div class="modal-login__header"></div>
+    <div class="modal-login__wrapper">
+      <form class="modal-login__form" method="post" action="">
+        <div class="modal-login__title">Log In</div>
+        <label class="visually-hidden" for="login">Your E-mail</label>
+        <input class="modal-login__input modal-login__input--email" type="email" value="Your E-mail" id="login" required>
+        <div class="modal-login__pass-wrapper">
+          <label class="visually-hidden" for="password">Password</label>
+          <input class="modal-login__input modal-login__input--pass" type="password" value="Password" id="password" placeholder="Password" required>
+          <a class="modal-login__forgot-link" href="#">Forgot your password?</a>
+        </div>
+        <button class="modal-login__button button" type="submit" aria-label="log in">Log In</button>
+      </form>
+      <div class="modal-login__sign">
+        <span class="modal-login__text">Don’t have an account?</span>
+        <a class="modal-login__sign-link" href="#">Sign up</a>
       </div>
-      <button class="modal-login__button button" type="submit" aria-label="log in">Log In</button>
-    </form>
-    <div class="modal-login__sign">
-      <span class="modal-login__text">Don’t have an account?</span>
-      <a class="modal-login__sign-link" href="#">Sign up</a>
     </div>
   </div>
 </div>
