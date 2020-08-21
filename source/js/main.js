@@ -22,4 +22,9 @@ $(document).ready(function(){
       }
     ]
   });
+  $('.questions').accordion({
+    heightStyle: 'content',
+    header: '> .questions__item > h3',
+    collapsible: true
+  });
 });
