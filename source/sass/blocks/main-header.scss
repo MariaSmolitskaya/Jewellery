@@ -117,6 +117,10 @@
     fill: $base-color;
   }
 
+  .main-header__bottom {
+    display: none;
+  }
+
   .main-header--open {
     background-color: $sandybrown;
   }

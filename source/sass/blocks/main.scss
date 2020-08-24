@@ -34,6 +34,10 @@
   margin-bottom: 130px;
 }
 
+.main__filters-btn {
+  display: none;
+}
+
 .main .filters {
   margin-top: 80px;
 }
@@ -59,6 +63,12 @@
 
   .main__wrapper--catalog {
     flex-direction: column;
+  }
+
+  .main__filters-btn {
+    display: block;
+    width: 100%;
+    margin-top: 40px;
   }
 
   .main .slider {

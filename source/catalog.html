@@ -82,82 +82,85 @@
     </div>
 
     <div class="main__wrapper main__wrapper--catalog">
-      <form class="filters" action="">
-        <div class="filters__box">
-          <h2>Product</h2>
-          <ul class="filters__list">
-            <li class="filters__item">
-              <input class="filters__checkbox" type="checkbox" id="check1" value="necklaces">
-              <label class="filters__label" for="check1">Necklaces</label>
-            </li>
-            <li class="filters__item">
-              <input class="filters__checkbox" type="checkbox" id="check2" value="chokers">
-              <label class="filters__label" for="check2">Chokers</label>
-            </li>
-            <li class="filters__item">
-              <input class="filters__checkbox" type="checkbox" id="check3" value="rings">
-              <label class="filters__label" for="check3">Rings</label>
-            </li>
-            <li class="filters__item">
-              <input class="filters__checkbox" type="checkbox" id="check4" value="earrings">
-              <label class="filters__label" for="check4">Earrings</label>
-            </li>
-          </ul>
-        </div>
-        <div class="filters__box">
-          <h2>Material</h2>
-          <ul class="filters__list">
-            <li class="filters__item">
-              <input class="filters__checkbox" type="checkbox" id="check5" value="necklaces">
-              <label class="filters__label" for="check5">Necklaces</label>
-            </li>
-            <li class="filters__item">
-              <input class="filters__checkbox" type="checkbox" id="check6" value="chokers">
-              <label class="filters__label" for="check6">Chokers</label>
-            </li>
-            <li class="filters__item">
-              <input class="filters__checkbox" type="checkbox" id="check7" value="rings">
-              <label class="filters__label" for="check7">Rings</label>
-            </li>
-            <li class="filters__item">
-              <input class="filters__checkbox" type="checkbox" id="check8" value="earrings">
-              <label class="filters__label" for="check8">Earrings</label>
-            </li>
-          </ul>
-        </div>
-        <div class="filters__box">
-          <h2>Collection</h2>
-          <ul class="filters__list">
-            <li class="filters__item">
-              <input class="filters__checkbox" type="checkbox" id="check9" value="necklaces">
-              <label class="filters__label" for="check9">Necklaces</label>
-            </li>
-            <li class="filters__item">
-              <input class="filters__checkbox" type="checkbox" id="check10" value="chokers">
-              <label class="filters__label" for="check10">Chokers</label>
-            </li>
-            <li class="filters__item">
-              <input class="filters__checkbox" type="checkbox" id="check11" value="rings">
-              <label class="filters__label" for="check11">Rings</label>
-            </li>
-            <li class="filters__item">
-              <input class="filters__checkbox" type="checkbox" id="check12" value="earrings">
-              <label class="filters__label" for="check12">Earrings</label>
-            </li>
-          </ul>
-        </div>
-        <div class="filters__box">
-          <h2>Price</h2>
-          <div class="filters__slider">
-            <label class="visually-hidden" for="price">Price</label>
-            <div class="filters__slider-container">
-              <input class="filters__range" type="range" min="10" max="500" id="price" >
+      <button class="main__filters-btn button" type="button" aria-label="show filters">Filters</button>
+      <section class="filters">
+        <form class="filters__form" action="">
+          <div class="filters__box">
+            <h2>Product</h2>
+            <ul class="filters__list">
+              <li class="filters__item">
+                <input class="filters__checkbox" type="checkbox" id="check1" value="necklaces">
+                <label class="filters__label" for="check1">Necklaces</label>
+              </li>
+              <li class="filters__item">
+                <input class="filters__checkbox" type="checkbox" id="check2" value="chokers">
+                <label class="filters__label" for="check2">Chokers</label>
+              </li>
+              <li class="filters__item">
+                <input class="filters__checkbox" type="checkbox" id="check3" value="rings">
+                <label class="filters__label" for="check3">Rings</label>
+              </li>
+              <li class="filters__item">
+                <input class="filters__checkbox" type="checkbox" id="check4" value="earrings">
+                <label class="filters__label" for="check4">Earrings</label>
+              </li>
+            </ul>
+          </div>
+          <div class="filters__box">
+            <h2>Material</h2>
+            <ul class="filters__list">
+              <li class="filters__item">
+                <input class="filters__checkbox" type="checkbox" id="check5" value="necklaces">
+                <label class="filters__label" for="check5">Necklaces</label>
+              </li>
+              <li class="filters__item">
+                <input class="filters__checkbox" type="checkbox" id="check6" value="chokers">
+                <label class="filters__label" for="check6">Chokers</label>
+              </li>
+              <li class="filters__item">
+                <input class="filters__checkbox" type="checkbox" id="check7" value="rings">
+                <label class="filters__label" for="check7">Rings</label>
+              </li>
+              <li class="filters__item">
+                <input class="filters__checkbox" type="checkbox" id="check8" value="earrings">
+                <label class="filters__label" for="check8">Earrings</label>
+              </li>
+            </ul>
+          </div>
+          <div class="filters__box">
+            <h2>Collection</h2>
+            <ul class="filters__list">
+              <li class="filters__item">
+                <input class="filters__checkbox" type="checkbox" id="check9" value="necklaces">
+                <label class="filters__label" for="check9">Necklaces</label>
+              </li>
+              <li class="filters__item">
+                <input class="filters__checkbox" type="checkbox" id="check10" value="chokers">
+                <label class="filters__label" for="check10">Chokers</label>
+              </li>
+              <li class="filters__item">
+                <input class="filters__checkbox" type="checkbox" id="check11" value="rings">
+                <label class="filters__label" for="check11">Rings</label>
+              </li>
+              <li class="filters__item">
+                <input class="filters__checkbox" type="checkbox" id="check12" value="earrings">
+                <label class="filters__label" for="check12">Earrings</label>
+              </li>
+            </ul>
+          </div>
+          <div class="filters__box">
+            <h2>Price</h2>
+            <div class="filters__slider">
+              <label class="visually-hidden" for="price">Price</label>
+              <div class="filters__slider-container">
+                <input class="filters__range" type="range" min="10" max="500" id="price" >
+              </div>
             </div>
           </div>
-        </div>
-        <button class="filters__submit button" type="submit" aria-label="apply filters">Apply</button>
-        <button class="filters__clear link" type="reset" aria-label="clear all filters">Clear All</button>
-      </form>
+          <button class="filters__submit button" type="submit" aria-label="apply filters">Apply</button>
+          <button class="filters__clear link" type="reset" aria-label="clear all filters">Clear All</button>
+        </form>
+      </section>
 
       <section class="catalog">
         <div class="catalog__goods goods">

@@ -4,6 +4,9 @@ $(document).ready(function(){
   $('.product__add').modaal({
     content_source: '#modal-basket'
   });
+  $('.main__filters-btn').modaal({
+    content_source: '.filters'
+  });
   $('.slider__wrapper').slick({
     infinite: true,
     slidesToShow: 4,
@@ -27,7 +30,7 @@ $(document).ready(function(){
     header: '> .questions__item > h3',
     collapsible: true
   });
-  $('.filters').accordion({
+  $('.filters__form').accordion({
     active: 0,
     heightStyle: 'content',
     header: '> .filters__box > h2',
