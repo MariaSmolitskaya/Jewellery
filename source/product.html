@@ -134,7 +134,7 @@
         </section>
       </section>
       <section class="main__slider slider">
-        <h2 class="title">You May Also Like</h2>
+        <h2>You May Also Like</h2>
         <a class="link" href="catalog.html">Shop Now</a>
         <button class="slider__btn slider__btn--left" type="button" aria-label="show previous">
           <svg width="30" height="11" viewBox="0 0 30 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -181,15 +181,14 @@
             <h3>Galaxy earrings</h3>
             <div class="goods__price">$ 95</div>
           </div>
-        </div>
-        <div class="slider__counter">
-          <span class="slider__count slider__count--first">1</span>
-          <span class="slider__count slider__count--second">2</span>
-          <span class="slider__count slider__count--third">3</span>
-          <span class="slider__count slider__count--fourth">4</span>
-          <span class="slider__count slider__count--fifth">5</span>
-          <span class="slider__count slider__count--of">of</span>
-          <span class="slider__count slider__count--sixth">6</span>
+          <div class="slider__item goods">
+            <div class="goods__img">
+              <!-- 1х: 270px; 2x: 540px -->
+              <img src="img/dainty-gold-necklace@1x.jpg" width="270" height="284" srcset="img/dainty-gold-necklace@1x.jpg 1x, img/dainty-gold-necklace@2x.jpg 2x" alt="Gold chain">
+            </div>
+            <h3>Marble earrings</h3>
+            <div class="goods__price">$ 95</div>
+          </div>
         </div>
       </section>
     </div>
@@ -327,33 +326,30 @@
 </div>
 
 <div class="modal-login modal" id="modal-login">
-  <div class="modal-login__header">
-    <button class="modal-login__close" type="button" aria-label="close">
-      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M7 5.44469L12.4447 0L14 1.55531L8.55531 7L14 12.4447L12.4447 14L7 8.55531L1.55531 14L0 12.4447L5.44469 7L0 1.55531L1.55531 0L7 5.44469Z" fill="#1D1613"/>
-      </svg>
-    </button>
-  </div>
-  <div class="modal-login__wrapper">
-    <form class="modal-login__form" method="post" action="">
-      <div class="modal-login__title">Log In</div>
-      <label class="visually-hidden" for="login">Your E-mail</label>
-      <input class="modal-login__input modal-login__input--email" type="email" value="Your E-mail" id="login" required>
-      <div class="modal-login__pass-wrapper">
-        <label class="visually-hidden" for="password">Password</label>
-        <input class="modal-login__input modal-login__input--pass" type="password" value="Password" id="password" required>
-        <a class="modal-login__forgot-link" href="#">Forgot your password?</a>
+  <div class="modal-login__main-wrapper">
+    <div class="modal-login__header"></div>
+    <div class="modal-login__wrapper">
+      <form class="modal-login__form" method="post" action="">
+        <div class="modal-login__title">Log In</div>
+        <label class="visually-hidden" for="login">Your E-mail</label>
+        <input class="modal-login__input modal-login__input--email" type="email" value="Your E-mail" id="login" required>
+        <div class="modal-login__pass-wrapper">
+          <label class="visually-hidden" for="password">Password</label>
+          <input class="modal-login__input modal-login__input--pass" type="password" value="Password" id="password" placeholder="Password" required>
+          <a class="modal-login__forgot-link" href="#">Forgot your password?</a>
+        </div>
+        <button class="modal-login__button button" type="submit" aria-label="log in">Log In</button>
+      </form>
+      <div class="modal-login__sign">
+        <span class="modal-login__text">Don’t have an account?</span>
+        <a class="modal-login__sign-link" href="#">Sign up</a>
       </div>
-      <button class="modal-login__button button" type="submit" aria-label="log in">Log In</button>
-    </form>
-    <div class="modal-login__sign">
-      <span class="modal-login__text">Don’t have an account?</span>
-      <a class="modal-login__sign-link" href="#">Sign up</a>
     </div>
   </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-<script src="js/modaal.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="js/vendor.js"></script>
 <script src="js/main.js" type="text/javascript" async></script>
 </body>
 </html>

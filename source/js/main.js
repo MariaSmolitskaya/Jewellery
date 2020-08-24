@@ -27,4 +27,14 @@ $(document).ready(function(){
     header: '> .questions__item > h3',
     collapsible: true
   });
+  $('.filters').accordion({
+    active: 0,
+    heightStyle: 'content',
+    header: '> .filters__box > h2',
+    collapsible: true
+  });
+  $('.main-header__button-burger').click(function () {
+    $('.main-header__bottom').slideToggle();
+    $('.main-header').toggleClass('.main-header--open');
+  });
 });

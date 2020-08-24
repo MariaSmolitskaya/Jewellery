@@ -23,16 +23,26 @@
   margin: 0;
 }
 
-.filters__btn {
-  @include btn-reset;
+.filters .ui-accordion-header:after {
+  content: "";
+  width: 15px;
+  height: 8px;
+  display: block;
   position: absolute;
   top: 30px;
   right: 25px;
+  background-image: url("../../img/icon-pointer.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   cursor: pointer;
+}
 
-  &:hover {
-    opacity: 0.5;
-  }
+.filters .ui-accordion-header:hover:after {
+  opacity: 0.6;
+}
+
+.filters .ui-state-active:after {
+  transform: rotate(180deg);
 }
 
 .filters__list {

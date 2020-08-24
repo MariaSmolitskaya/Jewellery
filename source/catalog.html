@@ -85,11 +85,6 @@
       <form class="filters" action="">
         <div class="filters__box">
           <h2>Product</h2>
-          <button class="filters__btn" type="button">
-            <svg class="filters__icon" width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path class="filters__icon" d="M16 9L8.5 1L1 9" stroke="#A87B62"/>
-            </svg>
-          </button>
           <ul class="filters__list">
             <li class="filters__item">
               <input class="filters__checkbox" type="checkbox" id="check1" value="necklaces">
@@ -111,11 +106,6 @@
         </div>
         <div class="filters__box">
           <h2>Material</h2>
-          <button class="filters__btn" type="button" aria-label="hide filter">
-            <svg class="filters__icon" width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path class="filters__icon" d="M16 9L8.5 1L1 9" stroke="#A87B62"/>
-            </svg>
-          </button>
           <ul class="filters__list">
             <li class="filters__item">
               <input class="filters__checkbox" type="checkbox" id="check5" value="necklaces">
@@ -137,11 +127,6 @@
         </div>
         <div class="filters__box">
           <h2>Collection</h2>
-          <button class="filters__btn" type="button" aria-label="hide filter">
-            <svg class="filters__icon" width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path class="filters__icon" d="M16 9L8.5 1L1 9" stroke="#A87B62"/>
-            </svg>
-          </button>
           <ul class="filters__list">
             <li class="filters__item">
               <input class="filters__checkbox" type="checkbox" id="check9" value="necklaces">
@@ -163,11 +148,6 @@
         </div>
         <div class="filters__box">
           <h2>Price</h2>
-          <button class="filters__btn" type="button" aria-label="hide filter">
-            <svg class="filters__icon" width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path class="filters__icon" d="M16 9L8.5 1L1 9" stroke="#A87B62"/>
-            </svg>
-          </button>
           <div class="filters__slider">
             <label class="visually-hidden" for="price">Price</label>
             <div class="filters__slider-container">
@@ -386,33 +366,30 @@
 </div>
 
 <div class="modal-login modal" id="modal-login">
-  <div class="modal-login__header">
-    <button class="modal-login__close" type="button" aria-label="close">
-      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M7 5.44469L12.4447 0L14 1.55531L8.55531 7L14 12.4447L12.4447 14L7 8.55531L1.55531 14L0 12.4447L5.44469 7L0 1.55531L1.55531 0L7 5.44469Z" fill="#1D1613"/>
-      </svg>
-    </button>
-  </div>
-  <div class="modal-login__wrapper">
-    <form class="modal-login__form" method="post" action="">
-      <div class="modal-login__title">Log In</div>
-      <label class="visually-hidden" for="login">Your E-mail</label>
-      <input class="modal-login__input modal-login__input--email" type="email" value="Your E-mail" id="login" required>
-      <div class="modal-login__pass-wrapper">
-        <label class="visually-hidden" for="password">Password</label>
-        <input class="modal-login__input modal-login__input--pass" type="password" value="Password" id="password" required>
-        <a class="modal-login__forgot-link" href="#">Forgot your password?</a>
+  <div class="modal-login__main-wrapper">
+    <div class="modal-login__header"></div>
+    <div class="modal-login__wrapper">
+      <form class="modal-login__form" method="post" action="">
+        <div class="modal-login__title">Log In</div>
+        <label class="visually-hidden" for="login">Your E-mail</label>
+        <input class="modal-login__input modal-login__input--email" type="email" value="Your E-mail" id="login" required>
+        <div class="modal-login__pass-wrapper">
+          <label class="visually-hidden" for="password">Password</label>
+          <input class="modal-login__input modal-login__input--pass" type="password" value="Password" id="password" placeholder="Password" required>
+          <a class="modal-login__forgot-link" href="#">Forgot your password?</a>
+        </div>
+        <button class="modal-login__button button" type="submit" aria-label="log in">Log In</button>
+      </form>
+      <div class="modal-login__sign">
+        <span class="modal-login__text">Don’t have an account?</span>
+        <a class="modal-login__sign-link" href="#">Sign up</a>
       </div>
-      <button class="modal-login__button button" type="submit" aria-label="log in">Log In</button>
-    </form>
-    <div class="modal-login__sign">
-      <span class="modal-login__text">Don’t have an account?</span>
-      <a class="modal-login__sign-link" href="#">Sign up</a>
     </div>
   </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-<script src="js/modaal.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="js/vendor.js"></script>
 <script src="js/main.js" type="text/javascript" async></script>
 </body>
 </html>
