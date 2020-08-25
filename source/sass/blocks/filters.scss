@@ -2,6 +2,10 @@
   width: 250px;
 }
 
+.filters__close-btn {
+  display: none;
+}
+
 .filters__box {
   box-sizing: border-box;
   padding-left: 25px;
@@ -135,6 +139,23 @@
     width: 442px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .filters__close-btn {
+    @include btn-reset;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    z-index: 100;
+    cursor: pointer;
+
+    &:hover .filters__icon-close {
+      fill: $sandybrown;
+    }
+  }
+
+  .filters__form:hover::before {
+    opacity: 0.5;
   }
 
   .filters__form h2 {

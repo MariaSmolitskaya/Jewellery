@@ -5,7 +5,8 @@ $(document).ready(function(){
     content_source: '#modal-basket'
   });
   $('.main__filters-btn').modaal({
-    content_source: '.filters'
+    content_source: '.filters',
+    hide_close: true
   });
   $('.slider__wrapper').slick({
     infinite: true,
@@ -37,7 +38,6 @@ $(document).ready(function(){
     collapsible: true
   });
   $('.main-header__button-burger').click(function () {
-    $('.main-header__bottom').slideToggle();
-    $('.main-header').toggleClass('.main-header--open');
+    $('.main-header').toggleClass('main-header--open');
   });
 });
