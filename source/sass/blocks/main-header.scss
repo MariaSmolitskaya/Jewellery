@@ -83,7 +83,7 @@
   .main-header .search {
     display: none;
     margin-top: 0;
-    margin-left: 0;
+    margin-left: 45px;
   }
 
   .main-header__button-burger,
@@ -141,7 +141,7 @@
   }
 
   .main-header--open .main-header__icon-burger,
-  .main-header--open .main-header__icon-cart {
+  .main-header--open .main-header__icon-cart path {
     stroke: $base-color;
   }
 }

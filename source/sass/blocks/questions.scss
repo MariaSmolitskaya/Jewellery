@@ -1,14 +1,16 @@
 .questions .title {
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 60px;
+  margin-bottom: 47px;
 }
 
 .questions__item {
+  max-width: 970px;
+  margin-left: auto;
+  margin-right: auto;
   border-left: 1px solid $sandybrown;
   border-top: 1px solid $sandybrown;
   border-right: 1px solid $sandybrown;
-  padding-bottom: 50px;
   position: relative;
 }
 
@@ -19,8 +21,10 @@
 .questions__item h3 {
   max-width: 600px;
   font-size: 18px;
-  margin-top: 50px;
-  margin-left: 38px;
+  line-height: 23px;
+  margin-top: 44px;
+  margin-left: 43px;
+  margin-bottom: 43px;
   cursor: pointer;
 
   &:hover {
@@ -32,9 +36,19 @@
   }
 }
 
+.questions__item .ui-accordion-header-active {
+  margin-bottom: 7px;
+}
+
+.questions__item .ui-accordion-content-active {
+  margin-bottom: 40px;
+}
+
 .questions__item p {
-  width: 535px;
+  width: 530px;
   margin-left: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .questions .ui-accordion-header:after {
@@ -46,6 +60,7 @@
   top: 52px;
   right: 50px;
   background-image: url("../../img/icon-pointer.svg");
+  transform: rotate(180deg);
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
@@ -56,7 +71,7 @@
 }
 
 .questions .ui-state-active:after {
-  transform: rotate(180deg);
+  transform: none;
 }
 
 @media (max-width: $desktop-width) {

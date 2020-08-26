@@ -10,6 +10,7 @@
   font-family: $ff-secondary;
   font-weight: bold;
   line-height: 30px;
+  letter-spacing: 0.03em;
   margin: 0 0 15px;
 }
 
@@ -41,8 +42,8 @@
   font-size: 16px;
   color: $base-color;
   position: absolute;
-  bottom: 10px;
-  right: 0;
+  bottom: 5px;
+  right: -12px;
 
   cursor: pointer;
 

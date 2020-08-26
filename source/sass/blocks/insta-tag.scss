@@ -8,11 +8,11 @@
 
 .insta-tag__photos {
   height: 414px;
-  margin-top: 60px;
+  margin-top: 65px;
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .insta-tag__photo {
@@ -26,11 +26,13 @@
 .insta-tag__photo--01 {
   width: 19.8%;
   max-height: 230px;
+  align-self: flex-start;
 }
 
 .insta-tag__photo--02 {
   width: 19.8%;
   max-height: 154px;
+  align-self: flex-start;
 }
 
 .insta-tag__photo--03 {
@@ -41,6 +43,7 @@
 .insta-tag__photo--04 {
   width: 19.8%;
   max-height: 193px;
+  align-self: flex-end;
 }
 
 .insta-tag__photo--05 {
@@ -51,11 +54,13 @@
 .insta-tag__photo--06 {
   width: 18.6%;
   max-height: 218px;
+  align-self: flex-end;
 }
 
 .insta-tag__photo--07 {
   width: 19.8%;
   max-height: 166px;
+  align-self: flex-end;
 }
 
 @media (max-width: $desktop-width) {
