@@ -27,9 +27,20 @@
 @media (max-width: $desktop-width) {
   .blog__item {
     width: 100%;
+    margin-bottom: 50px;
   }
 
   .blog .article--big {
     width: 100%;
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .blog__wrapper {
+    margin-top: 53px;
+  }
+
+  .blog__item {
+    margin-bottom: 40px;
   }
 }

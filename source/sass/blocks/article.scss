@@ -76,7 +76,7 @@
     width: 339px;
     height: 300px;
     padding-left: 88px;
-    padding-right: 88px;
+    padding-right: 85px;
   }
 
   .article__img {
@@ -99,6 +99,7 @@
   .article--big .article__desc {
     position: static;
     height: 300px;
+    padding-top: 80px;
   }
 }
 
@@ -113,12 +114,21 @@
     height: 256px;
   }
 
+  .article--big {
+    margin-top: 0;
+  }
+
   .article__desc {
     width: inherit;
     height: 256px;
-    padding-top: 50px;
-    padding-left: 63px;
-    padding-right: 64px;
+    padding-top: 45px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .article--big .article__desc {
+    padding-top: 60px;
+    height: 256px;
   }
 
   .article__desc--reversed {

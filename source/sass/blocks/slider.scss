@@ -57,17 +57,29 @@
 
 @media (max-width: $desktop-width) {
   .slider__wrapper {
+    margin-top: 55px;
     overflow: hidden;
+  }
+
+  .slider h2 {
+    margin-bottom: 20px;
+  }
+
+  .slider .slick-dots {
+    margin-top: 36px;
   }
 }
 
 @media (max-width: $tablet-width) {
   .slider__wrapper {
-    margin-top: 40px;
+    margin-top: 44px;
   }
 
   .slider__btn {
     display: none;
   }
 
+  .slider .slick-dots {
+    margin-top: 27px;
+  }
 }

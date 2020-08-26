@@ -11,7 +11,7 @@
   border-left: 1px solid $sandybrown;
   border-top: 1px solid $sandybrown;
   border-right: 1px solid $sandybrown;
-  padding-bottom: 38px;
+  border-bottom: 1px solid transparent;
   position: relative;
 }
 
@@ -25,7 +25,7 @@
   line-height: 23px;
   margin-top: 44px;
   margin-left: 43px;
-  margin-bottom: 0;
+  margin-bottom: 42px;
   cursor: pointer;
 
   &:hover {
@@ -39,6 +39,10 @@
 
 .questions__item .ui-accordion-header-active {
   margin-bottom: 7px;
+}
+
+.questions__item .ui-accordion-content-active {
+  margin-bottom: 40px;
 }
 
 .questions__item p {
@@ -76,13 +80,42 @@
     width: 23px;
     height: 12px;
   }
+
+  .questions__item h3 {
+    margin-left: 47px;
+  }
+
+  .questions__item .ui-accordion-header-active {
+    margin-bottom: 25px;
+  }
+
+  .questions__item .ui-accordion-content-active {
+    margin-bottom: 42px;
+  }
+
+  .questions__item p {
+    width: 535px;
+  }
 }
 
 @media (max-width: $tablet-width) {
+  .questions .title {
+    margin-bottom: 28px;
+  }
+
   .questions__item h3 {
     font-size: 16px;
-    margin-top: 22px;
+    margin-top: 15px;
     margin-left: 25px;
+    margin-bottom: 19px;
+  }
+
+  .questions__item .ui-accordion-header-active {
+    margin-bottom: 12px;
+  }
+
+  .questions__item .ui-accordion-content-active {
+    margin-bottom: 15px;
   }
 
   .questions__item--material h3 {
