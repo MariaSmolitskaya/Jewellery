@@ -73,6 +73,7 @@
 
 @media (max-width: $desktop-width) {
   .tagline {
+    margin-top: 0;
     max-width: 768px;
     background-image: url("../../img/background-tablet@1x.png");
   }

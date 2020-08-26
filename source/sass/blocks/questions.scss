@@ -11,6 +11,7 @@
   border-left: 1px solid $sandybrown;
   border-top: 1px solid $sandybrown;
   border-right: 1px solid $sandybrown;
+  padding-bottom: 38px;
   position: relative;
 }
 
@@ -24,7 +25,7 @@
   line-height: 23px;
   margin-top: 44px;
   margin-left: 43px;
-  margin-bottom: 43px;
+  margin-bottom: 0;
   cursor: pointer;
 
   &:hover {
@@ -38,10 +39,6 @@
 
 .questions__item .ui-accordion-header-active {
   margin-bottom: 7px;
-}
-
-.questions__item .ui-accordion-content-active {
-  margin-bottom: 40px;
 }
 
 .questions__item p {

@@ -75,8 +75,7 @@
     }
   }
 
-  .main-header__cart,
-  .main-header__logo-icon {
+  .main-header__cart {
     display: none;
   }
 
@@ -140,6 +139,10 @@
     display: block;
   }
 
+  .main-header--open .main-header__logo-icon {
+    display: none;
+  }
+
   .main-header--open .main-header__icon-burger,
   .main-header--open .main-header__icon-cart path {
     stroke: $base-color;
@@ -171,7 +174,6 @@
   .main-header__logo-icon {
     width: 52px;
     height: 52px;
-    fill: $base-color;
   }
 
   .main-header__button-burger {
@@ -185,5 +187,10 @@
   .main-header .search {
     top: 102px;
     margin-left: 15px;
+  }
+
+  .main-header--open .main-header__logo-icon {
+    display: block;
+    fill: $base-color;
   }
 }
