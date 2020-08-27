@@ -30,7 +30,9 @@
       </svg>
     </a>
     <a class="main-header__link-cart" href="#">
-      <svg class="main-header__icon-cart" width="20" height="18"><use xlink:href="img/sprite_auto.svg#icon-cart"></use></svg>
+      <svg class="main-header__icon-cart" width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14 5C14 6.06087 13.5786 7.07828 12.8284 7.82843C12.0783 8.57857 11.0609 9 10 9C8.93913 9 7.92172 8.57857 7.17157 7.82843C6.42143 7.07828 6 6.06087 6 5M1 1H19V17H1V1Z" stroke="#1D1613" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
     </a>
     <a class="main-header__login" href="#modal-login">Login</a>
     <a class="main-header__cart" href="#">Cart 0</a>
@@ -170,7 +172,7 @@
               <img src="img/double-pearl-earrings@1x.jpg" width="270" height="272" srcset="img/double-pearl-earrings@1x.jpg 1x, img/dainty-gold-necklace@2x.jpg 2x" alt="double pearl earrings">
             </div>
           </a>
-          <div class="goods__title">Double pearl earrings</div>
+          <h3>Double pearl earrings</h3>
           <div class="goods__price">$ 115</div>
         </div>
         <div class="catalog__goods goods">
@@ -264,11 +266,11 @@
         <div class="catalog__counter">
           <button class="catalog__btn catalog__btn--prev" type="button" aria-label="show previous">Previous</button>
           <div class="catalog__counter-wrapper">
-            <span class="catalog__count catalog__count--first">1</span>
-            <span class="catalog__count catalog__count--second">2</span>
-            <span class="catalog__count catalog__count--third">3</span>
-            <span class="catalog__count catalog__count--fourth">4</span>
-            <span class="catalog__count catalog__count--fifth">5</span>
+            <button class="catalog__count catalog__count--first" type="button" aria-label="show page 1 of catalog">1</button>
+            <button class="catalog__count catalog__count--second" type="button" aria-label="show page 2 of catalog">2</button>
+            <button class="catalog__count catalog__count--third" type="button" aria-label="show page 3 of catalog">3</button>
+            <button class="catalog__count catalog__count--fourth" type="button" aria-label="show page 4 of catalog">4</button>
+            <button class="catalog__count catalog__count--fifth" type="button" aria-label="show page 5 of catalog">5</button>
           </div>
           <button class="catalog__btn catalog__btn--next" type="button" aria-label="show next">Next</button>
         </div>

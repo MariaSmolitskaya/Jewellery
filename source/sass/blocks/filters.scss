@@ -9,12 +9,12 @@
 .filters__box {
   box-sizing: border-box;
   padding-left: 25px;
-  padding-top: 28px;
-  padding-bottom: 30px;
+  padding-top: 23px;
+  padding-bottom: 14px;
   border-left: 1px solid $sandybrown;
   border-top: 1px solid $sandybrown;
   border-right: 1px solid $sandybrown;
-
+  border-bottom: 1px solid transparent;
   position: relative;
 }
 
@@ -24,7 +24,7 @@
 
 .filters__form h2 {
   font-size: 16px;
-  margin: 0;
+  margin: 0 0 6px;
 }
 
 .filters__form .ui-accordion-header:after {
@@ -38,6 +38,7 @@
   background-image: url("../../img/icon-pointer.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  transform: rotate(180deg);
   cursor: pointer;
 }
 
@@ -46,13 +47,13 @@
 }
 
 .filters__form .ui-state-active:after {
-  transform: rotate(180deg);
+  transform: none;
 }
 
 .filters__list {
   @include list-reset;
-  margin-top: 25px;
-  margin-left: 10px;
+  margin-top: 21px;
+  margin-left: 4px;
 }
 
 .filters__item {
@@ -87,7 +88,7 @@
 .filters__label {
   font-size: 14px;
   line-height: 18px;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 .filters__slider-container {

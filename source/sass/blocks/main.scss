@@ -45,7 +45,7 @@
 .main .catalog {
   margin-top: 80px;
   margin-left: 50px;
-  margin-bottom: 80px;
+  margin-bottom: 72px;
 }
 
 .main .product {
@@ -89,7 +89,12 @@
   }
 
   .main .catalog {
+    margin-top: 50px;
     margin-left: 0;
+  }
+
+  .main .tagline--catalog {
+    margin-top: 11px;
   }
 }
 

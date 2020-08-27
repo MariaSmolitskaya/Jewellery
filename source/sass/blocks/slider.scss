@@ -9,6 +9,10 @@
   margin-bottom: 23px;
 }
 
+.slider__item h3 {
+  margin-top: 22px;
+}
+
 .slider__btn {
   @include btn-reset;
   position: absolute;

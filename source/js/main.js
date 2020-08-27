@@ -23,6 +23,15 @@ $(document).ready(function(){
           slidesToScroll: 1,
           infinite: true,
         }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+        }
       }
     ]
   });

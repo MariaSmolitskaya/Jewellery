@@ -1,7 +1,7 @@
 .menu__list {
   @include list-reset;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .menu__link {
