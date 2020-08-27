@@ -1,5 +1,7 @@
 'use strict';
-$(document).ready(function(){
+
+
+$(document).ready(function() {
   $('.main-header__login').modaal();
   $('.product__add').modaal({
     content_source: '#modal-basket'
@@ -7,6 +9,9 @@ $(document).ready(function(){
   $('.main__filters-btn').modaal({
     content_source: '.filters',
     hide_close: true
+  });
+  $('.slider__wrapper').on('init', function(event, slick) {
+    $(this).append('<div class="slick-dots-mobile"><p><span id="current">1</span> of <span id="total">'+ slick.slideCount +'</span></p></div>');
   });
   $('.slider__wrapper').slick({
     infinite: true,
@@ -31,10 +36,14 @@ $(document).ready(function(){
           slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
+          dots: false
         }
       }
     ]
   });
+  $('.slider__wrapper').on('afterChange', function(event, slick, currentSlide, nextSlide){
+      $('.slick-dots-mobile #current').html(currentSlide + 1);
+    });
   $('.questions').accordion({
     heightStyle: 'content',
     header: '> .questions__item > h3',
