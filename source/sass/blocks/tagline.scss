@@ -86,6 +86,12 @@
 
   .tagline--catalog {
     background-image: url("../../img/background-catalog-tablet@1x.jpg");
+    padding-top: 83px;
+  }
+
+  .tagline--catalog h1,
+  .tagline--catalog p {
+    margin-left: 0;
   }
 
   @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
@@ -122,6 +128,7 @@
 
   .tagline--catalog {
     background-image: url("../../img/background-catalog-mobile@1x.png");
+    padding-top: 78px;
   }
 
   .tagline--catalog .tagline__wrapper {
@@ -129,12 +136,16 @@
   }
 
   .tagline--catalog h1 {
+    font-size: 34px;
+    line-height: 44px;
     white-space: nowrap;
     letter-spacing: normal;
+    margin-bottom: 12px;
   }
 
   .tagline--catalog p {
-    line-height: 22px;
+    font-size: 22px;
+    line-height: 26px;
   }
 
   @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {

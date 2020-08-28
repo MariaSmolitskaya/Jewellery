@@ -62,7 +62,7 @@
   .catalog__goods {
     width: 44.8%;
     margin-right: 10.4%;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
 
   .catalog__goods:nth-child(3n) {
@@ -75,6 +75,10 @@
 
   .catalog__btn {
     display: none;
+  }
+
+  .catalog__counter {
+    margin-top: 10px;
   }
 
   .catalog__counter-wrapper {

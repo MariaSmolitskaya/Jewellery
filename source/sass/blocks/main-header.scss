@@ -20,6 +20,10 @@
   }
 }
 
+.main-header__logo-icon {
+  fill: $sandybrown;
+}
+
 .main-header .search {
   margin-top: 54px;
   margin-left: 93px;
@@ -119,6 +123,12 @@
     }
   }
 
+  .main-header__icon-burger,
+  .main-header__icon-cart {
+    stroke: $black;
+    fill: none;
+  }
+
   .main-header .search__icon {
     fill: $base-color;
   }
@@ -148,7 +158,7 @@
   }
 
   .main-header--open .main-header__icon-burger,
-  .main-header--open .main-header__icon-cart path {
+  .main-header--open .main-header__icon-cart {
     stroke: $base-color;
   }
 }
