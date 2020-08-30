@@ -8,6 +8,7 @@
   padding-top: 180px;
 
   background-image: url("../../img/background@1x.jpg");
+  background-image: -webkit-image-set(url("../../img/background@1x.webp")1x);
   background-repeat: no-repeat;
   background-position: center;
   background-color: $sandybrown;
@@ -19,6 +20,7 @@
 @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
   .tagline {
     background-image: url("../../img/background@2x.png");
+    background-image: -webkit-image-set(url("../../img/background@2x.png")2x);
     background-size: 1366px auto;
   }
 }
@@ -27,11 +29,13 @@
   height: 261px;
   padding-top: 93px;
   background-image: url("../../img/background-catalog@1x.jpg");
+  background-image: -webkit-image-set(url("../../img/background@1x.webp")1x);
 }
 
 @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
   .tagline--catalog {
     background-image: url("../../img/background-catalog@2x.jpg");
+    background-image: -webkit-image-set(url("../../img/background-catalog@2x.webp")2x);
   }
 }
 
@@ -77,6 +81,7 @@
     margin-top: 0;
     max-width: 768px;
     background-image: url("../../img/background-tablet@1x.png");
+    background-image: -webkit-image-set(url("../../img/background-tablet@1x.webp")1x);
   }
 
   .tagline h1,
@@ -86,6 +91,7 @@
 
   .tagline--catalog {
     background-image: url("../../img/background-catalog-tablet@1x.jpg");
+    background-image: -webkit-image-set(url("../../img/background-catalog-tablet@1x.webp")1x);
     padding-top: 83px;
   }
 
@@ -97,10 +103,12 @@
   @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     .tagline {
       background-image: url("../../img/background-tablet@2x.png");
+      background-image: -webkit-image-set(url("../../img/background-tablet@2x.webp")2x);
     }
 
     .tagline--catalog {
       background-image: url("../../img/background-catalog-tablet@2x.jpg");
+      background-image: -webkit-image-set(url("../../img/background-catalog-tablet@2x.webp")2x);
       background-size: contain;
     }
   }
@@ -111,6 +119,7 @@
     max-width: 320px;
     padding-top: 190px;
     background-image: url("../../img/background-mobile@1x.png");
+    background-image: -webkit-image-set(url("../../img/background-mobile@1x.webp")1x);
   }
 
   .tagline h1 {
@@ -128,6 +137,7 @@
 
   .tagline--catalog {
     background-image: url("../../img/background-catalog-mobile@1x.png");
+    background-image: -webkit-image-set(url("../../img/background-catalog-mobile@1x.webp")1x);
     padding-top: 78px;
   }
 
@@ -151,10 +161,12 @@
   @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     .tagline {
       background-image: url("../../img/background-mobile@2x.png");
+      background-image: -webkit-image-set(url("../../img/background-mobile@2x.webp")2x);
     }
 
     .tagline--catalog {
       background-image: url("../../img/background-catalog-mobile@2x.png");
+      background-image: -webkit-image-set(url("../../img/background-catalog-mobile@2x.webp")2x);
     }
   }
 }

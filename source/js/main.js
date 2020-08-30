@@ -55,7 +55,4 @@ $(document).ready(function() {
     header: '> .filters__box > h2',
     collapsible: true
   });
-  $('.main-header__button-burger').click(function () {
-    $('.main-header').toggleClass('main-header--open');
-  });
 });

@@ -58,10 +58,6 @@
   height: 630px;
 }
 
-.article img {
-  height: inherit;
-}
-
 .article--big .article__desc {
   height: 315px;
   padding-top: 90px;
@@ -89,6 +85,10 @@
     height: auto;
     float: none;
     margin-top: 50px;
+  }
+
+  .article--big img {
+    max-height: 300px;
   }
 
   .article--big .article__img {

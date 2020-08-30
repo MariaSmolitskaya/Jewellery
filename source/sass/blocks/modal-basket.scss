@@ -1,7 +1,7 @@
 .modal-basket__wrapper {
   width: 500px;
   height: 439px;
-  padding: 55px 35px;
+  padding: 47px 32px 47px 35px;
 
   background-color: $base-color;
   box-shadow: 0 4px 32px rgba(121, 121, 121, 0.24);
@@ -31,6 +31,7 @@
 
 .modal-basket__item {
   display: flex;
+  margin-top: 43px;
 }
 
 .modal-basket__img {
@@ -56,7 +57,7 @@
 
 .modal-basket__counter {
   margin-left: auto;
-  height: 68px;
+  height: 73px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -105,7 +106,7 @@
 
 .modal-basket__btns {
   display: flex;
-  margin-top: 40px;
+  margin-top: 31px;
 }
 
 .modal-basket__continue,
