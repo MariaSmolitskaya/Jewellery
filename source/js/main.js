@@ -1,6 +1,5 @@
 'use strict';
 
-
 $(document).ready(function() {
   $('.main-header__login').modaal();
   $('.product__add').modaal({
@@ -54,5 +53,8 @@ $(document).ready(function() {
     heightStyle: 'content',
     header: '> .filters__box > h2',
     collapsible: true
+  });
+  $('.main-header__button-burger').click(function () {
+    $('.main-header').toggleClass('main-header--open');
   });
 });
