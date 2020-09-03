@@ -27,7 +27,7 @@
   margin: 0 0 6px;
 }
 
-.filters__form .ui-accordion-header:after {
+.filters__form .ui-accordion-header::after {
   content: "";
   width: 15px;
   height: 8px;
@@ -42,11 +42,11 @@
   cursor: pointer;
 }
 
-.filters__form .ui-accordion-header:hover:after {
+.filters__form .ui-accordion-header:hover::after {
   opacity: 0.6;
 }
 
-.filters__form .ui-state-active:after {
+.filters__form .ui-state-active::after {
   transform: none;
 }
 
