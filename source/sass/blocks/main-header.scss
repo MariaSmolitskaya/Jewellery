@@ -20,6 +20,10 @@
   }
 }
 
+.main-header__logo--main:hover .main-header__logo-icon {
+  opacity: 1;
+}
+
 .main-header__logo-icon {
   fill: $sandybrown;
 }
