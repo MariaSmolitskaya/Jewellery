@@ -15,7 +15,7 @@ $(document).ready(function() {
   $('.slider__wrapper').slick({
     infinite: true,
     slidesToShow: 4,
-    slidesToScroll: 2,
+    slidesToScroll: 4,
     prevArrow: '.slider__btn--left',
     nextArrow: '.slider__btn--right',
     dots: true,
@@ -24,7 +24,7 @@ $(document).ready(function() {
         breakpoint: 1024,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1,
+          slidesToScroll: 2,
           infinite: true,
         }
       },
@@ -33,7 +33,7 @@ $(document).ready(function() {
         settings: {
           arrows: false,
           slidesToShow: 2,
-          slidesToScroll: 1,
+          slidesToScroll: 2,
           infinite: true,
           dots: false
         }
