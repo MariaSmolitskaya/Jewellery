@@ -4533,7 +4533,11 @@
 
 $(document).ready(function() {
   $('.main-header--open').removeClass('main-header--open');
-  $('.main-header__login').modaal();
+  $('.main-header__login').modaal({
+    background: '#FFFFFF',
+    overlay_opacity: 1
+    }
+  );
   $('.product__add').modaal({
     content_source: '#modal-basket'
   });
