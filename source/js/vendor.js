@@ -4532,6 +4532,7 @@
 */
 
 $(document).ready(function() {
+  $('.main-header--open').removeClass('main-header--open');
   $('.main-header__login').modaal();
   $('.product__add').modaal({
     content_source: '#modal-basket'
@@ -4587,6 +4588,7 @@ $(document).ready(function() {
   });
   $('.main-header__button-burger').click(function () {
     $('.main-header').toggleClass('main-header--open');
+    $('.main-header').toggleClass('main-header--js');
     $('body').toggleClass('overflow-hidden');
   });
 });

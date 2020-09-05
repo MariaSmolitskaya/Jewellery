@@ -142,10 +142,13 @@
   }
 
   .main-header--open {
-    height: 100%;
     background-color: $sandybrown;
-    position: fixed;
     z-index: 100;
+  }
+
+  .main-header--js {
+    height: 100%;
+    position: fixed;
   }
 
   .main-header--open .main-header__bottom {
