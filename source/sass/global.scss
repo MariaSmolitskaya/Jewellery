@@ -56,6 +56,10 @@ img {
   display: none;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
