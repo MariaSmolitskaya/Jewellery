@@ -4539,7 +4539,9 @@ $(document).ready(function() {
     }
   );
   $('.product__add').modaal({
-    content_source: '#modal-basket'
+    content_source: '#modal-basket',
+    background: '#1D1613',
+    overlay_opacity: 0.25
   });
   $('.main__filters-btn').modaal({
     content_source: '.filters',
