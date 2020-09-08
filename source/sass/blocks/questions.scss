@@ -8,11 +8,16 @@
   max-width: 970px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 32px;
   border-left: 1px solid $sandybrown;
   border-top: 1px solid $sandybrown;
   border-right: 1px solid $sandybrown;
   border-bottom: 1px solid transparent;
   position: relative;
+}
+
+.questions__item--open {
+  padding-bottom: 40px;
 }
 
 .questions__item:last-child {
@@ -25,7 +30,7 @@
   line-height: 23px;
   margin-top: 44px;
   margin-left: 43px;
-  margin-bottom: 42px;
+  margin-bottom: 10px;
   cursor: pointer;
 
   &:hover {
@@ -37,14 +42,6 @@
   }
 }
 
-.questions__item .ui-accordion-header-active {
-  margin-bottom: 7px;
-}
-
-.questions__item .ui-accordion-content-active {
-  margin-bottom: 40px;
-}
-
 .questions__item p {
   width: 530px;
   margin-left: 50px;
@@ -52,7 +49,7 @@
   margin-bottom: 0;
 }
 
-.questions .ui-accordion-header::after {
+.questions__item h3::after {
   content: "";
   width: 15px;
   height: 8px;
@@ -60,37 +57,28 @@
   position: absolute;
   top: 52px;
   right: 50px;
-  background-image: url("../../img/icon-pointer.svg");
-  transform: rotate(180deg);
+  background-image: url("../../img/pointer.svg");
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
 }
 
-.questions .ui-accordion-header:hover::after {
+.questions__item h3:hover::after {
   opacity: 0.6;
 }
 
-.questions .ui-state-active::after {
-  transform: none;
+.questions__item--open h3::after {
+  transform: rotate(180deg);
 }
 
 @media (max-width: $desktop-width) {
-  .questions .ui-accordion-header::after {
+  .questions__item h3::after {
     width: 23px;
     height: 12px;
   }
 
   .questions__item h3 {
     margin-left: 47px;
-  }
-
-  .questions__item .ui-accordion-header-active {
-    margin-bottom: 25px;
-  }
-
-  .questions__item .ui-accordion-content-active {
-    margin-bottom: 42px;
   }
 
   .questions__item p {
@@ -108,14 +96,6 @@
     margin-top: 15px;
     margin-left: 25px;
     margin-bottom: 19px;
-  }
-
-  .questions__item .ui-accordion-header-active {
-    margin-bottom: 12px;
-  }
-
-  .questions__item .ui-accordion-content-active {
-    margin-bottom: 15px;
   }
 
   .questions__item--material h3 {
@@ -140,7 +120,7 @@
     margin-left: 25px;
   }
 
-  .questions .ui-accordion-header::after {
+  .questions__item h3::after {
     top: 25px;
     right: 25px;
   }

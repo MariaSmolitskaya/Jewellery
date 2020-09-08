@@ -4581,11 +4581,11 @@ $(document).ready(function() {
   $('.slider__wrapper').on('afterChange', function(event, slick, currentSlide, nextSlide){
     $('.slick-dots-mobile #current').html(currentSlide + 1);
   });
-  $('.questions').accordion({
-    heightStyle: 'content',
-    header: '> .questions__item > h3',
-    collapsible: true
-  });
+  $('.questions__item').click(function() {
+    $(this).toggleClass('questions__item--open');
+    $(this).children('p').slideToggle();
+    return false;
+  }).children('p').hide();
   $('.filters__box').click(function() {
     $(this).toggleClass('filters__box--open');
     $(this).children('.filters__list').slideToggle();
