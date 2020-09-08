@@ -4586,12 +4586,13 @@ $(document).ready(function() {
     header: '> .questions__item > h3',
     collapsible: true
   });
-  $('.filters__form').accordion({
-    active: 0,
-    heightStyle: 'content',
-    header: '> .filters__box > h2',
-    collapsible: true
-  });
+  $('.filters__box').click(function() {
+    $(this).toggleClass('filters__box--open');
+    $(this).children('.filters__list').slideToggle();
+    return false;
+  }).children('.filters__list').hide();
+  $('.filters__box--product .filters__list').show();
+  $('.filters__box--price .filters__slider').show();
   $('.main-header__button-burger').click(function () {
     $('.main-header').toggleClass('main-header--open');
     $('.main-header').toggleClass('main-header--js');
