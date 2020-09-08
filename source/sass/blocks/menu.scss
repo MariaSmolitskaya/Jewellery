@@ -2,6 +2,7 @@
   @include list-reset;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .menu__link {

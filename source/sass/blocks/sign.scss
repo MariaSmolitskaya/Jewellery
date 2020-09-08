@@ -37,6 +37,10 @@
   }
 }
 
+.sign__form {
+  position: relative;
+}
+
 .sign__submit {
   @include btn-reset;
   font-family: $ff-primary;
@@ -61,6 +65,8 @@
   stroke: $base-color;
   margin-left: 12px;
 }
+
+
 
 @media (max-width: $desktop-width) {
   .sign {
