@@ -61,27 +61,28 @@
 }
 
 .filters__checkbox {
+  display: none;
+}
+
+.filters__label::before {
+  content: "";
+  display: inline-block;
   position: relative;
+  width: 15px;
+  height: 15px;
+  box-sizing: border-box;
+  margin-right: 10px;
+  vertical-align: middle;
+  background-color: $base-color;
+  border: 1px solid $sandybrown;
   cursor: pointer;
 }
 
-.filters__checkbox::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  width: 15px;
-  height: 15px;
-  z-index: 1;
-  background-color: $base-color;
-  border: 1px solid $sandybrown;
-}
-
-.filters__checkbox:checked::after {
+.filters__checkbox:checked + .filters__label::before {
   background-color: $sandybrown;
 }
 
-.filters__checkbox:hover::after {
+.filters__checkbox:hover + .filters__label::before {
   border-color: rgba($sandybrown, 0.5);
 }
 
