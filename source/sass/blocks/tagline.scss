@@ -7,7 +7,7 @@
   box-sizing: border-box;
   padding-top: 180px;
 
-  background-image: url("../../img/background@1x.jpg");
+  background-image: url("../img/background@1x.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-color: $sandybrown;
@@ -18,7 +18,7 @@
 
 @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
   .tagline {
-    background-image: url("../../img/background@2x.png");
+    background-image: url("../img/background@2x.png");
     background-size: 1366px auto;
   }
 }
@@ -26,12 +26,12 @@
 .tagline--catalog {
   height: 261px;
   padding-top: 93px;
-  background-image: url("../../img/background-catalog@1x.jpg");
+  background-image: url("../img/background-catalog@1x.jpg");
 }
 
 @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
   .tagline--catalog {
-    background-image: url("../../img/background-catalog@2x.jpg");
+    background-image: url("../img/background-catalog@2x.jpg");
     background-size: 1366px auto;
   }
 }
@@ -77,7 +77,7 @@
   .tagline {
     margin-top: 0;
     max-width: 768px;
-    background-image: url("../../img/background-tablet@1x.png");
+    background-image: url("../img/background-tablet@1x.png");
   }
 
   .tagline h1,
@@ -86,7 +86,7 @@
   }
 
   .tagline--catalog {
-    background-image: url("../../img/background-catalog-tablet@1x.jpg");
+    background-image: url("../img/background-catalog-tablet@1x.jpg");
     padding-top: 83px;
   }
 
@@ -97,12 +97,12 @@
 
   @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     .tagline {
-      background-image: url("../../img/background-tablet@2x.png");
+      background-image: url("../img/background-tablet@2x.png");
       background-size: 768px auto;
     }
 
     .tagline--catalog {
-      background-image: url("../../img/background-catalog-tablet@2x.jpg");
+      background-image: url("../img/background-catalog-tablet@2x.jpg");
       background-size: 768px auto;
     }
   }
@@ -112,7 +112,7 @@
   .tagline {
     max-width: 320px;
     padding-top: 190px;
-    background-image: url("../../img/background-mobile@1x.png");
+    background-image: url("../img/background-mobile@1x.png");
   }
 
   .tagline h1 {
@@ -152,12 +152,12 @@
 
   @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     .tagline {
-      background-image: url("../../img/background-mobile@2x.png");
+      background-image: url("../img/background-mobile@2x.png");
       background-size: 320px auto;
     }
 
     .tagline--catalog {
-      background-image: url("../../img/background-catalog-mobile@2x.png");
+      background-image: url("../img/background-catalog-mobile@2x.png");
       background-size: 320px auto;
     }
   }
