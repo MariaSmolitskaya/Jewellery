@@ -1,5 +1,6 @@
 .menu__list {
   @include list-reset;
+  max-height: 490px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -21,6 +22,10 @@
   margin-left: auto;
   margin-right: auto;
   padding-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .menu__list--small {
