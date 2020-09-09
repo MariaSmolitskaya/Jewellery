@@ -8,6 +8,7 @@
   <link rel="preload" href="fonts/poppins-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   <link rel="preload" href="fonts/poppins-medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   <link rel="preload" href="fonts/cormorant-garamond-bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="fonts/cormorant-garamond-italic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -24,7 +25,7 @@
         <svg class="search__icon" width="14" height="14"><use xlink:href="img/sprite_auto.svg#icon-search"></use></svg>
       </button>
       <label class="visually-hidden" for="search-input">Search</label>
-      <input class="search__input" type="search" placeholder="Type here to search" id="search-input">
+      <input class="search__input" id="search-input" type="search" placeholder="Type here to search" >
     </form>
     <a class="main-header__logo" href="main.html">
       <span class="visually-hidden">go to home page</span>
@@ -156,7 +157,7 @@
             <div class="filters__slider">
               <label class="visually-hidden" for="price">Price</label>
               <div class="filters__slider-container">
-                <input class="filters__range" type="range" min="10" max="500" id="price" >
+                <input class="filters__range" id="price" type="range" min="10" max="500" >
               </div>
             </div>
           </div>
@@ -321,7 +322,7 @@
       <p>News and updates from CH. No spam, we promise.</p>
       <form class="sign__form " method="post" action="https://echo.htmlacademy.ru">
         <label class="visually-hidden" for="sign-input">Email</label>
-        <input class="sign__input" type="email" placeholder="Your E-mail" id="sign-input">
+        <input class="sign__input" id="sign-input" type="email" placeholder="Your E-mail" >
         <button class="sign__submit" type="submit" aria-label="submit and subscribe">
           Sign Up
           <svg class="sign__icon" width="30" height="11"><use xlink:href="img/sprite_auto.svg#icon-sign"></use></svg>
@@ -419,6 +420,7 @@
     </div>
   </div>
 </div>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 <script src="js/main.js"></script>
 <script src="js/vendor.js"></script>
 <script>svg4everybody();</script>
