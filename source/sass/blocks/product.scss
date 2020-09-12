@@ -192,6 +192,10 @@
     margin-top: 50px;
   }
 
+  .product__tab-label:first-of-type {
+    margin-right: 34px;
+  }
+
   .product__detail {
     width: 100%;
     margin-left: 0;
@@ -203,7 +207,15 @@
     line-height: 16px;
   }
 
+  .product__table {
+    margin-top: 20px;
+  }
+
   .product__add {
     margin-top: 40px;
+  }
+
+  .product__guarantee {
+    margin-top: 13px;
   }
 }
