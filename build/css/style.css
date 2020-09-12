@@ -36,7 +36,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: poppins, arial, sans-serif;
+  font-family: "Poppins", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 21px;
@@ -102,7 +102,7 @@ img {
 .article h3 {
   margin-top: 12px;
   margin-bottom: 36px;
-  font-family: cormorant garamond, arial, sans-serif;
+  font-family: "Cormorant garamond", "Arial", sans-serif;
   font-size: 26px;
   line-height: 34px;
   color: #000000; }
@@ -229,7 +229,7 @@ img {
   width: 250px;
   height: 68px;
   display: block;
-  font-family: poppins, arial, sans-serif;
+  font-family: "Poppins", "Arial", sans-serif;
   font-size: 16px;
   background-color: #a87b62;
   color: #ffffff;
@@ -262,7 +262,7 @@ img {
 .catalog__count {
   border: 0 none;
   background-color: transparent;
-  font-family: poppins, arial, sans-serif;
+  font-family: "Poppins", "Arial", sans-serif;
   font-size: 16px;
   cursor: pointer;
   padding: 0; }
@@ -357,7 +357,8 @@ img {
   border-top: 1px solid #a87b62;
   border-right: 1px solid #a87b62;
   border-bottom: 1px solid transparent;
-  position: relative; }
+  position: relative;
+  cursor: pointer; }
 
 .filters__box:last-of-type {
   border-bottom: 1px solid #a87b62; }
@@ -458,7 +459,7 @@ img {
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
-  font-family: poppins, arial, sans-serif;
+  font-family: "Poppins", "Arial", sans-serif;
   font-size: 16px; }
 
 @media (max-width: 1023px) {
@@ -519,6 +520,15 @@ img {
   -ms-flex-negative: 0;
       flex-shrink: 0; }
 
+.footer__container {
+  width: 100%;
+  max-width: 1170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto; }
+
 .footer--catalog {
   position: relative; }
 
@@ -553,12 +563,13 @@ img {
 
 @media (max-width: 1023px) {
   .footer {
+    padding-top: 55px;
+    padding-left: 45px; }
+  .footer__container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column;
-    padding-top: 55px;
-    padding-left: 45px; }
+            flex-direction: column; }
   .footer__wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -899,7 +910,8 @@ img {
   .main .product {
     margin-top: 0; }
   .main--product .slider {
-    margin-bottom: 67px; } }
+    margin-top: 56px;
+    margin-bottom: 50px; } }
 
 .main-header {
   width: 100%;
@@ -1152,7 +1164,7 @@ img {
   position: relative; }
 
 .modal-basket__wrapper p {
-  font-family: cormorant garamond, arial, sans-serif;
+  font-family: "Cormorant garamond", "Arial", sans-serif;
   font-size: 26px;
   font-weight: bold;
   line-height: 34px;
@@ -1181,7 +1193,7 @@ img {
   margin-left: 20px; }
 
 .modal-basket__name {
-  font-family: cormorant garamond, arial, sans-serif;
+  font-family: "Cormorant garamond", "Arial", sans-serif;
   font-size: 18px;
   font-weight: bold;
   line-height: 23px; }
@@ -1208,7 +1220,7 @@ img {
   width: 14px;
   padding: 0;
   font-size: 18px;
-  font-family: poppins, arial, sans-serif;
+  font-family: "Poppins", "Arial", sans-serif;
   text-align: center;
   border: 0; }
 
@@ -1356,7 +1368,7 @@ img {
   margin: 60px 45px; }
 
 .modal-login__title {
-  font-family: cormorant garamond, arial, sans-serif;
+  font-family: "Cormorant garamond", "Arial", sans-serif;
   font-size: 34px;
   line-height: 44px;
   text-align: center;
@@ -1615,6 +1627,8 @@ img {
     margin-bottom: 28px; }
   .product h2 {
     margin-top: 50px; }
+  .product__tab-label:first-of-type {
+    margin-right: 34px; }
   .product__detail {
     width: 100%;
     margin-left: 0; }
@@ -1622,8 +1636,12 @@ img {
     width: 68px;
     text-align: center;
     line-height: 16px; }
+  .product__table {
+    margin-top: 20px; }
   .product__add {
-    margin-top: 40px; } }
+    margin-top: 40px; }
+  .product__guarantee {
+    margin-top: 13px; } }
 
 .questions .title {
   text-align: center;
@@ -1730,7 +1748,7 @@ img {
 
 .search__input {
   border: 0 none;
-  font-family: poppins, arial, sans-serif;
+  font-family: "Poppins", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 21px; }
@@ -1800,7 +1818,7 @@ img {
 
 .sign h2 {
   font-size: 34px;
-  font-family: cormorant garamond, arial, sans-serif;
+  font-family: "Cormorant garamond", "Arial", sans-serif;
   font-weight: bold;
   line-height: 30px;
   letter-spacing: 0.03em;
@@ -1819,19 +1837,19 @@ img {
   border-bottom: 1px solid #ffffff;
   padding-bottom: 12px; }
   .sign__input::-webkit-input-placeholder {
-    font-family: poppins, arial, sans-serif;
+    font-family: "Poppins", "Arial", sans-serif;
     font-weight: 500; }
   .sign__input::-moz-placeholder {
-    font-family: poppins, arial, sans-serif;
+    font-family: "Poppins", "Arial", sans-serif;
     font-weight: 500; }
   .sign__input:-ms-input-placeholder {
-    font-family: poppins, arial, sans-serif;
+    font-family: "Poppins", "Arial", sans-serif;
     font-weight: 500; }
   .sign__input::-ms-input-placeholder {
-    font-family: poppins, arial, sans-serif;
+    font-family: "Poppins", "Arial", sans-serif;
     font-weight: 500; }
   .sign__input::placeholder {
-    font-family: poppins, arial, sans-serif;
+    font-family: "Poppins", "Arial", sans-serif;
     font-weight: 500; }
   .sign__input:hover::-webkit-input-placeholder {
     color: #a87b62; }
@@ -1850,7 +1868,7 @@ img {
 .sign__submit {
   border: 0 none;
   background-color: transparent;
-  font-family: poppins, arial, sans-serif;
+  font-family: "Poppins", "Arial", sans-serif;
   font-size: 16px;
   color: #ffffff;
   position: absolute;
@@ -1956,7 +1974,8 @@ img {
   .slider .slick-dots {
     margin-top: 27px; }
   .slider .slick-dots-mobile {
-    display: block; }
+    display: block;
+    margin-top: 33px; }
   .slider__item h3 {
     margin-top: 13px; } }
 
@@ -1973,7 +1992,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-color: #a87b62;
-  font-family: cormorant garamond, arial, sans-serif;
+  font-family: "Cormorant garamond", "Arial", sans-serif;
   color: #ffffff; }
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
@@ -2083,7 +2102,7 @@ img {
     background-size: 320px auto; } }
 
 .title {
-  font-family: cormorant garamond, arial, sans-serif;
+  font-family: "Cormorant garamond", "Arial", sans-serif;
   font-size: 34px;
   line-height: 44px;
   margin-top: 0;
@@ -2740,7 +2759,7 @@ img {
           justify-content: center; }
 
 .slick-dots button {
-  font-family: poppins, arial, sans-serif;
+  font-family: "Poppins", "Arial", sans-serif;
   font-size: 16px;
   color: #9b9997;
   background: transparent;
