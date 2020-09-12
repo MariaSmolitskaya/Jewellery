@@ -6,6 +6,14 @@
   flex-shrink: 0;
 }
 
+.footer__container {
+  width: 100%;
+  max-width: 1170px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .footer--catalog {
   position: relative;
 }
@@ -45,9 +53,12 @@
 
 @media (max-width: $desktop-width) {
   .footer {
-    flex-direction: column;
     padding-top: 55px;
     padding-left: 45px;
+  }
+
+  .footer__container {
+    flex-direction: column;
   }
 
   .footer__wrapper {
