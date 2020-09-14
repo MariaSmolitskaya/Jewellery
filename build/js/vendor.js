@@ -4533,6 +4533,7 @@
 
 $(document).ready(function() {
   $('.main-header--open').removeClass('main-header--open');
+  $('.slider').removeClass('slider--nojs');
   $('.main-header__login').modaal({
     background: '#FFFFFF',
     overlay_opacity: 1
