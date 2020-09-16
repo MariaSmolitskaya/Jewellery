@@ -4533,6 +4533,7 @@
 
 $(document).ready(function() {
   $('.main-header--open').removeClass('main-header--open');
+  $('.slider').removeClass('slider--nojs');
   $('.main-header__login').modaal({
     background: '#FFFFFF',
     overlay_opacity: 1
@@ -4586,11 +4587,11 @@ $(document).ready(function() {
     $(this).children('p').slideToggle();
     return false;
   }).children('p').hide();
-  $('.filters__box').click(function() {
-    $(this).toggleClass('filters__box--open');
-    $(this).children('.filters__list').slideToggle();
+  $('.filters h2').click(function() {
+    $(this).parent().toggleClass('filters__box--open');
+    $(this).next('.filters__list').slideToggle();
     return false;
-  }).children('.filters__list').hide();
+  }).next('.filters__list').hide();
   $('.filters__box--product .filters__list').show();
   $('.filters__box--price .filters__slider').show();
   $('.main-header__button-burger').click(function () {
