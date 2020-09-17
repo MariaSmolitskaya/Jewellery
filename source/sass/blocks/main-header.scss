@@ -144,6 +144,7 @@
   .main-header--open {
     background-color: $sandybrown;
     z-index: 100;
+    overflow: scroll;
   }
 
   .main-header--js {

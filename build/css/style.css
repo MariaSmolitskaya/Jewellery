@@ -1017,7 +1017,8 @@ img {
     display: none; }
   .main-header--open {
     background-color: #a87b62;
-    z-index: 100; }
+    z-index: 100;
+    overflow: scroll; }
   .main-header--js {
     height: 100%;
     position: fixed; }
